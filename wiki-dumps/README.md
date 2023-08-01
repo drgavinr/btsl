@@ -26,8 +26,10 @@ The data includes data reused from the following sources under the following lic
     - [Ordnance Survey of Great Britain](https://www.ordnancesurvey.co.uk/business-government/tools-support/open-data-support)
     - [Natural England](https://data.gov.uk/dataset/21104eeb-4a53-4e41-8ada-d2d442e416e0/national-character-areas-england)
     - [Natural Resources Wales](https://data.gov.uk/dataset/10ba5624-bc9c-47ec-9bfa-69a46620b23d/national-landscape-character-areas-nlca)
-- Creative Commons Attribution licence:
-    - [British Library EThOS thesis metadata](https://doi.org/10.23636/ybpt-nh33)
+- [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/) licence (CC-BY):
+    - [British Library EThOS thesis metadata](https://doi.org/10.23636/ybpt-nh33) (2021 version)
 - not formally licensed but effectively same as CC-BY:
     - [Wikishire](http://wikishire.co.uk/lookup/)
     - [Historic County Borders Project](http://www.county-borders.co.uk/)
+- [Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) licence (CC-BY-SA):
+    - [English Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
