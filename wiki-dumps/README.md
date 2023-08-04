@@ -33,3 +33,4 @@ The data includes data reused from the following sources under the following lic
     - [Historic County Borders Project](http://www.county-borders.co.uk/)
 - [Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) licence (CC-BY-SA):
     - [English Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+    - [Linking Experiences of World War One](https://www.collaborativecollections.org/WorldWarOne/Main_Page)
