@@ -1,14 +1,13 @@
 # wiki-dumps
 This folder provides dumps of the entire [By The Sword Linked](https://www.bytheswordlinked.uk/) wiki.
 
+## Data
+
 Data files available are as follows:
 
 - by-the-sword-linked-RDF-dump.rdf.zip: all semantic properties from the wiki exported as OWL DL serialized as RDF/XML. This does not include free text or non-semantic template parameters. Has to be zipped otherwise it's too big to upload to Github.
 - by-the-sword-linked-Wikitext-Structure.xml: the wikitext source code of every page in the following namespaces: Mediawiki, Project, Property, Template, Form, Category, Help. This gives the data structures of the wiki without the content. Exported as [wikitext XML](https://www.mediawiki.org/wiki/Help:Export#Export_format).
 - by-the-sword-linked-Wikitext-Content.xml.zip: the wikitext source code of every page in the following namespaces: Main, Events, Locations. This gives the content which goes with the data structures above. Exported as [wikitext XML](https://www.mediawiki.org/wiki/Help:Export#Export_format). Has to be zipped otherwise it's too big to upload to Github.
-
-
-Some of the wiki templates rely on tag extensions that have not yet been released to the public.
 
 For more information about the project and data, see:
 
@@ -17,6 +16,8 @@ For more information about the project and data, see:
 - [Help:Data structures](https://www.bytheswordlinked.uk/wiki/Help:Data_structures) gives more details of the semantic properties and how they are used by each entity type.
 - [Help:Dates](https://www.bytheswordlinked.uk/wiki/Help:Dates) explains how the project handles the difference between the Julian and Gregorian calendars.
 - [Project:Progress](https://www.bytheswordlinked.uk/wiki/Project:Progress) gives an overview of what is and isn't included in the data.
+
+## Copyright acknowledgements
 
 The data includes data reused from the following sources under the following licences, which legally require attribution:
 
@@ -34,3 +35,50 @@ The data includes data reused from the following sources under the following lic
 - [Creative Commons Attribution ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/) licence (CC-BY-SA):
     - [English Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
     - [Linking Experiences of World War One](https://www.collaborativecollections.org/WorldWarOne/Main_Page)
+
+ ## MediaWiki configuration
+
+ These sections contain more detailed information about how to set up MediaWiki to work like By The Sword Linked.
+
+ ### MediaWiki extensions
+
+ These extensions are bundled with MediaWiki and must be enabled:
+
+ - CategoryTree
+ - Cite
+ - InputBox
+ - Interwiki
+ - ParserFunctions
+
+ By The Sword Linked also uses these extensions, which are not bundled with MediaWiki:
+
+ - [JulianGregorianDate](https://github.com/bytheswordlinkd/julian-gregorian-date)
+ - [Semantic MediaWiki](https://www.semantic-mediawiki.org/)
+ - [Maps](https://maps.extension.wiki/)
+ - [PageForms](https://www.mediawiki.org/wiki/Extension:Page_Forms)
+ - [TitleKey](https://www.mediawiki.org/wiki/Extension:TitleKey)
+
+ ### Custom namespaces
+
+ These namespaces need to be added:
+
+ - 3000 Locations
+ - 3001 Locations_talk
+ - 3002 Events
+ - 3003 Events_talk
+
+In addition, the Locations and Events namespaces need to have subpages and semantics enabled, and should be counted as content namespaces.
+
+ ### Interwiki links
+
+Special:Interwiki should have the following added:
+
+Prefix: marinelives
+
+URL: `http://www.marinelives.org/wiki/$1`
+
+ ### Other local settings
+
+Disable parser strict mode to allow multiple assignments of properties in one semantic tag:
+
+`$smwgParserFeatures = SMW_PARSER_INL_ERROR | SMW_PARSER_HID_CATS;`
