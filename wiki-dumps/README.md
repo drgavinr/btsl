@@ -79,6 +79,8 @@ URL: `http://www.marinelives.org/wiki/$1`
 
  ### Other local settings
 
-Disable parser strict mode to allow multiple assignments of properties in one semantic tag:
+For dumps up to and including 8 February 2024, you will need to disable parser strict mode to allow multiple assignments of properties in one semantic tag:
 
 `$smwgParserFeatures = SMW_PARSER_INL_ERROR | SMW_PARSER_HID_CATS;`
+
+Dumps made after 8 February 2024 will not need this as they no longer use multiple assignments. Extra properties are assigned using the #set parser function instead.
