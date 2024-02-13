@@ -4681,19 +4681,18 @@ You can use the links below to find whether copies are available from EThOS or a
     <ns>106</ns>
     <id>223</id>
     <revision>
-      <id>126483</id>
-      <parentid>126477</parentid>
-      <timestamp>2024-02-07T10:01:25Z</timestamp>
+      <id>127172</id>
+      <parentid>127171</parentid>
+      <timestamp>2024-02-12T14:32:41Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>Text replacement - "values from category=Copyright status" to "values from concept=Autocomplete copyright status"</comment>
-      <origin>126483</origin>
+      <comment>no toc</comment>
+      <origin>127172</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2315" sha1="6j9tin3p8wlqpk6zc81i4vj3ikmk4yw" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="2318" sha1="3lefyyage1d5wg73dbmpzvzdk83k72h" xml:space="preserve">&lt;noinclude&gt;
 This is the "Thesis" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -4702,8 +4701,8 @@ if a page with that name already exists, you will be sent to a form to edit that
 {{#forminput:form=Thesis}}
 
 Existing pages that use this form are listed in [[:Category:Theses]].
-&lt;/noinclude&gt;&lt;includeonly&gt;__TOC__
-== Basic data ==
+&lt;/noinclude&gt;&lt;includeonly&gt;__NOTOC__
+= Basic data =
 
 {{{for template|Thesis}}}
 {| class="formtable"
@@ -4731,9 +4730,12 @@ Existing pages that use this form are listed in [[:Category:Theses]].
 |-
 ! Wikidata ID: 
 | {{{field|Wikidata ID|input type=text}}}
+|-
+! Sort key: 
+| {{{field|Sort by|input type=text}}}
 |}
 
-=== Copyright ===
+= Copyright =
 
 {| class="formtable"
 |-
@@ -4747,30 +4749,29 @@ Existing pages that use this form are listed in [[:Category:Theses]].
 | {{{field|Copyright explanation|input type=textarea|cols=45}}}
 |}
 
-=== Subjects ===
+= Subjects =
 
 {| class="formtable"
 |-
 ! Main subject: 
 | {{{field|Main subject|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
-|-
-! Sort key: 
-| {{{field|Sort by|input type=text}}}
 |}
 
 {{{end template}}}
 
-== Find copies  ==
+= Find copies  =
 
 Only use this to link to copies that are not already linked by semantic properties in the table above.
 
 {{{section|Find Copies|level=2|rows=10|hide if empty}}}
 
-== Any other information ==
+= Any other information =
 
 You can use this to add any extra information about this thesis, but please don't add anything that infringes copyright or breaches our neutrality guidelines.
 
 {{{section|Any other information|level=2|rows=10|hide if empty}}}
+
+&lt;headertabs/&gt;
 
 {{{standard input|summary}}}
 
@@ -4778,7 +4779,7 @@ You can use this to add any extra information about this thesis, but please don'
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>6j9tin3p8wlqpk6zc81i4vj3ikmk4yw</sha1>
+      <sha1>3lefyyage1d5wg73dbmpzvzdk83k72h</sha1>
     </revision>
   </page>
   <page>
@@ -5662,19 +5663,24 @@ See [[Help:Dates]] for more information on how to enter dates.</text>
     <ns>102</ns>
     <id>277</id>
     <revision>
-      <id>287</id>
-      <timestamp>2019-02-20T16:00:16Z</timestamp>
+      <id>127212</id>
+      <parentid>287</parentid>
+      <timestamp>2024-02-13T09:40:48Z</timestamp>
       <contributor>
-        <username>imported&gt;Gavin</username>
-        <id>0</id>
+        <username>Gavin</username>
+        <id>1</id>
       </contributor>
-      <origin>287</origin>
+      <comment>allowed values</comment>
+      <origin>127212</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="164" sha1="mfjpkjaztwiulw8f3sa50nfilq6x1xl" xml:space="preserve">This is a property of type [[Has type::Page]]. It represents the result of a siege.
+      <text bytes="209" sha1="te4xtirc076v8134qel8bfjt5byftmv" xml:space="preserve">This is a property of type [[Has type::Page]]. It represents the result of a siege.
 
-The allowed values for this property are listed in [[:Category:Siege results]].</text>
-      <sha1>mfjpkjaztwiulw8f3sa50nfilq6x1xl</sha1>
+The allowed values for this property are:
+
+* [[Captured]]{{#set:Allows value=Captured}}
+* [[Held]]{{#set:Allows value=Held}}</text>
+      <sha1>te4xtirc076v8134qel8bfjt5byftmv</sha1>
     </revision>
   </page>
   <page>
@@ -6869,18 +6875,19 @@ Line breaks in the original text are not usually represented here. Optionally yo
     <ns>12</ns>
     <id>364</id>
     <revision>
-      <id>127092</id>
-      <parentid>125827</parentid>
-      <timestamp>2024-02-08T09:28:46Z</timestamp>
+      <id>127193</id>
+      <parentid>127092</parentid>
+      <timestamp>2024-02-13T09:10:39Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Date properties */ removed properties for signed and will made</comment>
-      <origin>127092</origin>
+      <minor/>
+      <comment>fixed broken links</comment>
+      <origin>127193</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="64776" sha1="lnllsh7b7q96sayh8yuwrn4baqxe2n1" xml:space="preserve">(This page needs updating when current changes to forms, templates and properties are complete.)
+      <text bytes="64666" sha1="s4f5d97i1v6nm54wz9vqytdt706kitb" xml:space="preserve">(This page needs updating when current changes to forms, templates and properties are complete.)
 
 This page gives an overview of this site's semantic data structures. See also [[Help:Create a page]] for a brief guide to the basic entity types and their associated forms.
 
@@ -7161,7 +7168,7 @@ Both lost and extant manuscripts share most of the same properties, but some pro
 ==== Copyright properties ====
 
 * [[Property:Has copyright status|Has copyright status]] (type: page; single value): the current copyright status of this individual text. All available copyright statuses are listed in [[:Category:Copyright status]]. Note that some manuscripts will count as published because there is a printed edition, and if the edition is old enough this can lead to the text of the original manuscript being out of copyright, although in these cases, the GLAM may still impose restrictions on reusing images of the original manuscript. Also note that [[CC0]] is treated as a copyright status here even though it is more correctly referred to as a licence. This is because once all rights have been waived by CC0, its copyright status becomes irrelevant, and can be harder to know.
-* [[Property:Has licence condition|Has licence condition]] (type: page; single value): indicates whether there are any restrictions on reuse and whether any rights have been waived by a licence, such as CC or OGL. This is only intended to refer to the text of a document and not to images of it, which may have different conditions. If a text is in copyright and no rights have been waived, the value is [[All rights reserved]]. Available values are listed in [[:Category:Licence conditions]].
+* [[Property:Has licence|Has licence]] (type: page; single value): indicates whether there are any restrictions on reuse and whether any rights have been waived by a licence, such as CC or OGL. This is only intended to refer to the text of a document and not to images of it, which may have different conditions. If a text is in copyright and no rights have been waived, the value is [[All rights reserved]]. Available values are listed in [[:Category:Licences]].
 * a non-semantic field to explain the reasons for the copyright status and/or licence using free text. Relevant information can include publication date, death of the author, or whether the document is a Public Record in Crown Copyright. There may be some wiki templates to repeat standard text for common cases.
 
 ==== Date properties ====
@@ -7275,7 +7282,7 @@ Uses [[Form:Early edition]] and [[Template:Early edition]].
 * [[Property:To be sold by|To be sold by]] (type: page; multiple values): one or more people named on the title page as booksellers by whom this edition was to be sold. Should be left blank if not stated on the title page.
 * [[Property:To be sold at|To be sold at]] (type: page; multiple values): one or more addresses stated on the title page as places where this edition was to be sold. Should be left blank if not stated on the title page.
 * [[Property:Has copyright status|Has copyright status]] (type: page; single value): the copyright status of this edition. Should nearly always keep the default value, which is [[copyright expired]], but can be edited because there are a few rare exceptions.
-* [[Property:Has licence condition|Has licence condition]] (type: page; single value): licence conditions or restrictions of this edition. Should nearly always keep the default value, which is [[no restrictions]], but can be edited because there are a few rare exceptions.
+* [[Property:Has licence|Has licence]] (type: page; single value): licence conditions or restrictions of this edition. Should nearly always keep the default value, which is [[no restrictions]], but can be edited because there are a few rare exceptions.
 * non-semantic field to explain copyright and licence in more detail using free wiki text. Should nearly always keep the default value, but can be edited because there are a few rare exceptions.
 * [[Property:Covers period from|Covers period from]] and [[Property:Covers period to|Covers period to]] (type: date; single value): the earliest and latest dates covered by this edition. Different editions of the same work may cover different dates if one is an abridged version. Only expected to be used for editions of primary sources that are narratives of events or sequences of administrative documents. Otherwise not really worth using.
 * [[Property:Has main subject|Has main subject]] (type: page; multiple values): any entities that this edition is substantially about. Represented here rather than at work level because an abridged version might not have the all the same subjects as a full-length version. This is also why wiki categories are kept at this level and not usually used for works.
@@ -7298,7 +7305,7 @@ Uses [[Form:Modern edition]] and [[Template:Modern edition]].
 ** ''The Journal of Sir Samuel Luke'', Oxfordshire Record Society: 29;31;33
 * [[Property:Has issue number|Has issue number]] (type: number; single value): this edition's issue number if it is linked to a series. It is unlikely that a book edition will have both a volume and issue number, but since these properties exist because both are often needed for a journal article (see below), book editions should use whichever seems more appropriate.
 * [[Property:Has copyright status|Has copyright status]] (type: page; single value): the copyright status of this edition. Different editions may have different copyright status depending on when editors or translators died, or because they compile works by different authors.
-* [[Property:Has licence condition|Has licence condition]] (type: page; single value): licence conditions or restrictions of this edition.
+* [[Property:Has licence|Has licence]] (type: page; single value): licence conditions or restrictions of this edition.
 * non-semantic field to explain copyright and licence in more detail using free wiki text.
 * [[Property:Covers period from|Covers period from]] and [[Property:Covers period to|Covers period to]] (type: date; single value): the earliest and latest dates covered by this edition. Different editions of the same work may cover different dates if one is an abridged version. Only expected to be used for editions of primary sources that are narratives of events or sequences of administrative documents. Otherwise not really worth using.
 * [[Property:Has main subject|Has main subject]] (type: page; multiple values): any entities that this edition is substantially about. Represented here rather than at work level because an abridged version might not have the all the same subjects as a full-length version. This is also why wiki categories are kept at this level and not usually used for works.
@@ -7362,7 +7369,7 @@ Properties are mostly the same as those used for printed books but combined into
 ==== Copyright data ====
 
 * [[Property:Has copyright status|Has copyright status]] (type: page; single value): the copyright status of this article. Will usually be [[In copyright (published)]] or [[Copyright expired]].
-* [[Property:Has licence condition|Has licence condition]] (type: page; single value): licence conditions for this article. Open Access articles may have Creative Commons licences for the version of record. Some journals use the same CC licence for every article but others have different licence conditions for individual articles.
+* [[Property:Has licence|Has licence]] (type: page; single value): licence conditions for this article. Open Access articles may have Creative Commons licences for the version of record. Some journals use the same CC licence for every article but others have different licence conditions for individual articles.
 * non-semantic field to explain copyright and licence in more detail using free wiki text.
 
 ==== Dates and subjects ====
@@ -7389,7 +7396,7 @@ Represents a thesis or dissertation.
 ==== Copyright data ====
 
 * [[Property:Has copyright status|Has copyright status]] (type: page; single value): the copyright status of this thesis. Will usually be [[In copyright (unpublished)]].
-* [[Property:Has licence condition|Has licence condition]] (type: page; single value): licence conditions for this thesis. Will usually be [[All rights reserved]] but there may be exceptions.
+* [[Property:Has licence|Has licence]] (type: page; single value): licence conditions for this thesis. Will usually be [[All rights reserved]] but there may be exceptions.
 * non-semantic field to explain copyright and licence in more detail using free wiki text.
 
 ==== Subjects ====
@@ -7545,7 +7552,7 @@ In the following list, the values assigned to the second-level properties (which
 ** [[Property:Has definite end date|Has definite end date]]
 
 [[Category:Help pages]]</text>
-      <sha1>lnllsh7b7q96sayh8yuwrn4baqxe2n1</sha1>
+      <sha1>s4f5d97i1v6nm54wz9vqytdt706kitb</sha1>
     </revision>
   </page>
   <page>
@@ -7639,21 +7646,23 @@ No other information about you will be stored or published except what you choos
     <ns>8</ns>
     <id>385</id>
     <revision>
-      <id>119294</id>
-      <parentid>60955</parentid>
-      <timestamp>2023-12-28T18:58:45Z</timestamp>
+      <id>127174</id>
+      <parentid>119294</parentid>
+      <timestamp>2024-02-12T15:04:56Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>broken outgoing links</comment>
-      <origin>119294</origin>
+      <comment>downtime for maintenance</comment>
+      <origin>127174</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="330" sha1="cf0rzv7lpwhhfyke3pdqxjct418i43w" xml:space="preserve">This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.
+      <text bytes="413" sha1="784o55sezgisxfb58l0sd9rqzen3obq" xml:space="preserve">This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.
+
+'''This site will soon be temporarily unavailable because of maintenance work.'''
 
 Outgoing links to the British Library, Ordnance Survey, and BCW Regimental wiki are broken because of temporary problems with those sites. See [[Project:Known issues]] for more information.</text>
-      <sha1>cf0rzv7lpwhhfyke3pdqxjct418i43w</sha1>
+      <sha1>784o55sezgisxfb58l0sd9rqzen3obq</sha1>
     </revision>
   </page>
   <page>
@@ -7801,18 +7810,17 @@ It looks like query results at [[Special:Ask]] will never be cached by anything.
     <ns>4</ns>
     <id>398</id>
     <revision>
-      <id>125726</id>
-      <parentid>122460</parentid>
-      <timestamp>2024-02-05T10:38:50Z</timestamp>
+      <id>127190</id>
+      <parentid>127189</parentid>
+      <timestamp>2024-02-13T08:46:56Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Outstanding issues */ autocomplete from Main NS breaking forms</comment>
-      <origin>125726</origin>
+      <origin>127190</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="11648" sha1="o9dcxzxxkq0g72cfxufgnd5xzf5r8sq" xml:space="preserve">__TOC__
+      <text bytes="6339" sha1="sfls9aq1kvqn4p58aibmqu3x9jbncul" xml:space="preserve">__TOC__
 
 == Outstanding issues ==
 
@@ -7821,60 +7829,19 @@ These problems have been found during testing and not yet solved:
 * February 2024:
 ** forms can't get autocomplete values from Main namespace because it causes a CPU spike and stops the form from loading. To stop this, 'values from namespace=Main' has been removed from forms, but this limits the autocomplete values available.
 * December 2023: broken links:
-** BCW Project Regimental wiki is currently down, but [http://theminiaturespage.com/boards/msg.mv?id=573695 discussion at The Miniatures Page forum] suggests it will come back.
+** BCW Project Regimental wiki is currently down, but [http://theminiaturespage.com/boards/msg.mv?id=573695 discussion at The Miniatures Page forum] suggests it will come back. Snapshots can be viewed at the [https://web.archive.org/web/20230204055359/https://wiki.bcw-project.org/start Internet Archive] but links from By The Sword Linked have not been updated to point to the archived versions.
 ** the cyber attack on the British Library has led to the following links breaking:
+*** [[Property:Has EThOS ID]]
 *** [[Property:Has ESTC number]]
 *** [[Property:Has BL UIN]]
 *** [[Property:Has URL]] where it links from manuscript or collection pages to the British Library catalogue.
 ** the Ordnance Survey has withdrawn its old linked data service, which has broken [[Property:Has Ordnance Survey ID]]
 * there may be a bug in [[Special:Export]] that truncates the text of some pages. It is not yet known whether this also affects dumpBackup.php which is used to export to Github.
-* timeline and eventline result formats always use Gregorian calendar, which puts some events in the wrong month. This means there is currently no use case for the Semantic Result Format extension, so it could probably be removed.
-* when editing with a form then previewing, error message 'Some parts of the form did not reach the server' always appears. Edits are not lost and can be saved, but if header tabs are used in the form, these no longer appear on the form after preview. Seems to be connected with [https://phabricator.wikimedia.org/T254647 this bug] that has not yet been fixed.
-* pages from namespaces other than Main and Special do not appear in search suggestions. This is a known bug in Title Key that has not yet been patched, but only seems to occur here since upgrade from Mediawiki 1.31 to 1.35.
-* sometimes trying to save an edit gives 403 forbidden error. Probably to do with [https://www.mediawiki.org/wiki/ModSecurity mod_security] but not clear what it objects to. May be semi-colons which make text look like PHP code when it isn't. These semi-colons may have been down to typos in templates which have now been fixed, but there may be cases in future where the error is triggered again.
-* where a template generates an inline link to a query based on the page name, this mostly works but on at least one page it generated a link with the wrong query signature. This means that the query does nothing (doesn't even return 'No results'). Not clear how this happened as the template worked correctly on other pages.
-* page names containing non-ASCII accented characters seem to sort in a strange order in categories. Need to find out what the correct order is in the relevant languages and set sort keys if necessary.
-* when editing a page using a form, autocomplete suggestions match any characters and are sorted in alphabetical order without prioritising exact matches or matches at the start of the page name. This is inconvenient when linking to a county because every place name in that county will match, and many will come before the county itself. Turning off character matching would also disable accent folding.
-* sometimes embedded maps don't load and just display as grey. Refreshing the page seems to fix this. Not clear if this is a problem with Maps extension or OpenStreetMap. Not seen since Maps extension upgraded to 7.18 but more testing needed.
-* leaflet input in forms works if it's on the first header tab but not on the second. For now, leaflet inputs are kept on the first tab but a better solution will be needed in future.
-* leaflet input ignores starting bounds. Not clear if this has really been implemented for leaflet or only for Google maps. Needs testing in Page Forms 4.9.4 as may have been fixed.
-* the default skin we are using has not yet been thoroughly tested for accessibility by this project's standards. It could contain obstacles such as overcomplicated layouts, unnecessary javascript or other problems. For now, some accessibility problems are likely to have been fixed by changing the default skin to Monobook, but this could also have introduced other problems.
-* TitleKey extension is known to break Visual Editor so we can't use both at once.
-* using [[Special:ReplaceText]] to update incoming links after moving a page will go wrong if the page name to be changed is a substring of another page name.
+* leaflet input ignores starting bounds. Needs testing in Page Forms 5.6.3 as may have been fixed.
 
 == Resolved issues ==
 
-* [[Cheshire, England]] had been overwritten by a redirect. This has now been corrected.
-* default skin is now Monobook, not Vector. This has the following effects:
-** pages load faster and have less unnecessary javascript
-** edit tabs and search box don't move after page loads
-** removes a menu that was difficult to access with the keyboard
-* now using free text section instead of template for transcripts of texts, and using wiki templates instead of XML tags to mark up features in transcripts. This fixes these problems:
-** editing some pages with form caused timeout and CPU spike
-** table markup inside transcripts had to use magic word instead of pipe
-** Page Forms sometimes changed angle brackets to entity references, which stopped XML tags from being parsed properly
-** if in future we use Visual Editor, custom XML tags would not be compatible
-* upgraded Page Forms extension to 4.9.4. This fixes these problems:
-** pages edited with a form had every template parameter in the source code even if no value had been entered, which stopped default values in templates from taking effect.
-** leaflet input didn't allow manually editing coordinates or pasting coordinates from elsewhere.
-* &lt;nowiki&gt;&lt;name&gt;, &lt;date&gt; and &lt;gap&gt;&lt;/nowiki&gt; tags can now be used inside footnotes if you use the optional attribute display="inline", which stops these tags from generating their own footnotes.
-* search suggestions now have accent folding. This means that if you type an ASCII character such as e suggestions will also match accented versions.
-* creating Events and Location pages via red link from Unit or Agent pages didn't work if page name included an apostrophe (and possibly other special characters). Target of #formlink should use &lt;nowiki&gt;{{PAGENAMEE}}&lt;/nowiki&gt; to URL encode the page name, but URL encoding should NOT be used in #ifexists or normal wikilinks. Still need to investigate whether this problem affects #formredlink
-* LiteSpeed cache extension has been removed because it isn't well integrated with MediaWiki and was causing some other problems. This resolves these issues:
-** map markers not displaying properly. Still happened with Maps 7.4.1. When LiteSpeed cache is enabled, Maps 7.18 has even worse problems: some map tiles don't display and no markers display. In 2023, maps were moved out of the main namespace. This will probably stop LiteSpeed cache from breaking them if it ever needs to be enabled again but more testing is needed.
-** pages not purged from cache unless manually edited or transcluded template edited
-** logged-in users served cached version of page that makes it look like they're not logged in
-* if [[Special:WantedPages]] is out of date but no jobs in queue, use [https://www.mediawiki.org/wiki/Manual:UpdateSpecialPages.php updateSpecialPages.php] maintenance script.
-* pages imported en masse by command line script are not autopatrolled. Solution:
-** adding --username-prefix="" to import command stops this problem as imports will be credited to correct user, including that user's autopatrol rights. In practice, when doing it like this, imported pages don't appear in recent changes even after rebuild.
-* ByTheSwordLinkedTags extension has been removed as it wasn't really necessary.
-* 'Show preview' should now work when editing with form but needs further testing to confirm. (This was caused by a div that was automatically inserted into forms but has now been manually removed.)
-* / characters in unit page names have been replaced by \ in case / causes problems with subpage names in Locations and Events namespaces.
-* links between counties and associations that were accidentally deleted have been added back.
-* [[Special:Ask]] can now display and export up to 2,000 query results at once (was previously set to 500).
-* links to Battlefields Trust website that were accidentally deleted have been added back.
-* mod_security doesn't allow inline CSS. To get custom styling, add a class to a div or span tag and define that class in [[Mediawiki:Common.css]].
-* recently imported English settlements now have missing queries for sources and personnel.
+(Cleared 13 February 2024. Most entries moved to Quirks below or deleted because no longer relevant.)
 
 == Quirks ==
 
@@ -7890,13 +7857,20 @@ These are minor problems that can be worked around, or things that have to be do
 * date parameters should pass a single space, not an empty string, as default value. This default value can be passed straight to #set without any sanity checks. Passing an empty string causes problems.
 * interwiki links to Marine Lives need to be set up manually after a new install (this may include upgrades to a new Mediawiki version).
 * in forms, free text sections must always go '''after''' all templates otherwise things go wrong.
-* use multiple assignments instead of subproperties otherwise it's difficult to display subproperty values in query results.
+* subproperties should not be used because they make it difficult to display subproperty values in query results. Simple hierarchies can be simulated by assigning the same value to more than one property, but the extra property must be assigned using #set. Multiple assignments in the same semantic link tag should no longer be used because they are not compatible with parser strict mode.
 * when using #ask parser function to make inline queries, limit=0 creates a link to the query without running it or saying whether there are any results, limit=-1 stops the query from working at all and should never be used. This does not match the documentation.
 * if Litespeed cache needs to be tried again, the version at Mediawiki extensions website is out of date. Get the latest version from [https://github.com/litespeedtech/lscache_mediawiki/ Github].
-* new version of Title Key extension doesn't work here at all. Keep using existing version as long as possible. This includes hacks for accent folding and changing SLAVE to REPLICA which were not originally in the shipped code. NB to update database table after imports, use 'php extensions/TitleKey/rebuildTitleKeys.php' from mw directory. This is different from instructions for newer versions.
 * 'show on select' doesn't work with combobox inputs.
-* the query language apparently has no way to exclude pages from query results according to specified criteria because the NOT operator finds all pages that have a property value that is not the one specified. This means that a page with multiple values for a property will be included in query results if it has the excluded value and at least one other value; but a page will be excluded from query results if it has no value for that property. Therefore the NOT operator can only reliably be used on properties that always have exactly one value. This will work for [[Property:Is instance of]] but many other properties will make queries behave strangely if the NOT operator is used.</text>
-      <sha1>o9dcxzxxkq0g72cfxufgnd5xzf5r8sq</sha1>
+* the query language apparently has no way to exclude pages from query results according to specified criteria because the NOT operator finds all pages that have a property value that is not the one specified. This means that a page with multiple values for a property will be included in query results if it has the excluded value and at least one other value; but a page will be excluded from query results if it has no value for that property. Therefore the NOT operator can only reliably be used on properties that always have exactly one value. This will work for [[Property:Is instance of]] but many other properties will make queries behave strangely if the NOT operator is used.
+* page names containing non-ASCII accented characters seem to sort in a strange order in categories. Need to find out what the correct order is in the relevant languages and set sort keys if necessary.
+* when editing a page using a form, autocomplete suggestions match any characters and are sorted in alphabetical order without prioritising exact matches or matches at the start of the page name. This is inconvenient when linking to a county because every place name in that county will match, and many will come before the county itself. Turning off character matching would also disable accent folding.
+* leaflet input in forms works if it's on the first header tab but not on the second. For now, leaflet inputs are kept on the first tab but a better solution will be needed in future.
+* using [[Special:ReplaceText]] to update incoming links after moving a page will go wrong if the page name to be changed is a substring of another page name.
+* creating Events and Location pages via red link from Unit or Agent pages wouldn't work if page name included an apostrophe (and possibly other special characters). Target of #formlink should use &lt;nowiki&gt;{{PAGENAMEE}}&lt;/nowiki&gt; to URL encode the page name, but URL encoding should NOT be used in #ifexists or normal wikilinks. Still not clear whether this problem affects #formredlink but #formredlink is not currently used.
+* unit and agent page names should not include / characters because they conflict with paths to subpage names in Locations and Events namespaces. Use \ instead.
+* mod_security doesn't allow inline CSS. To get custom styling, add a class to a div or span tag and define that class in [[Mediawiki:Common.css]].
+* if [[Special:WantedPages]] is out of date but no jobs in queue, use [https://www.mediawiki.org/wiki/Manual:UpdateSpecialPages.php updateSpecialPages.php] maintenance script.</text>
+      <sha1>sfls9aq1kvqn4p58aibmqu3x9jbncul</sha1>
     </revision>
   </page>
   <page>
@@ -8875,18 +8849,18 @@ This template is used by [[Form:Type definition]] and should not be used separat
     <ns>106</ns>
     <id>2852</id>
     <revision>
-      <id>126488</id>
-      <parentid>125741</parentid>
-      <timestamp>2024-02-07T10:03:07Z</timestamp>
+      <id>127170</id>
+      <parentid>126488</parentid>
+      <timestamp>2024-02-12T14:30:46Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <origin>126488</origin>
+      <comment>escaping special characters</comment>
+      <origin>127170</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4618" sha1="cp52ynna3g0daj7bn8dyr5s69rp0zo2" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="4627" sha1="aikod0whg0uthdifpngmg73irmn7eii" xml:space="preserve">&lt;noinclude&gt;
 This is the "Type definition" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -8946,7 +8920,7 @@ For reference, the code for the standard query is shown below. You can copy this
 
 Select whether to query for instances of this class:
 
-{{{field|Override instance query|input type=dropdown|default=&lt;2000|values=None,&lt;2000,&gt;2000}}}
+{{{field|Override instance query|input type=dropdown|default=&amp;lt;2000|values=None,&amp;lt;2000,&amp;gt;2000}}}
 
 You can use this text area to add extra explanations or links, for example linking to a category:
 
@@ -9010,7 +8984,7 @@ You can use this text area to write a human-readable definition of this type def
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>cp52ynna3g0daj7bn8dyr5s69rp0zo2</sha1>
+      <sha1>aikod0whg0uthdifpngmg73irmn7eii</sha1>
     </revision>
   </page>
   <page>
@@ -10514,18 +10488,18 @@ For makers of draught harness, use [[:Category:Harness makers]].
     <ns>10</ns>
     <id>25815</id>
     <revision>
-      <id>60867</id>
-      <timestamp>2021-05-27T11:30:48Z</timestamp>
+      <id>127151</id>
+      <parentid>60867</parentid>
+      <timestamp>2024-02-08T13:12:03Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "&lt;includeonly&gt;[[Relates to::Mentions::{{{2}}}|{{{1}}}]]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;"</comment>
-      <origin>60867</origin>
+      <origin>127151</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="174" sha1="3gvky3mm742oxe59i1vjogmml5ap7qs" xml:space="preserve">&lt;includeonly&gt;[[Relates to::Mentions::{{{2}}}|{{{1}}}]]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
-      <sha1>3gvky3mm742oxe59i1vjogmml5ap7qs</sha1>
+      <text bytes="189" sha1="r9x1jw668kia3xef2372dm6ft3jwoou" xml:space="preserve">&lt;includeonly&gt;[[Mentions::{{{2}}}|{{{1}}}]]{{#set:Relates to={{{2}}}}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
+      <sha1>r9x1jw668kia3xef2372dm6ft3jwoou</sha1>
     </revision>
   </page>
   <page>
@@ -10533,19 +10507,18 @@ For makers of draught harness, use [[:Category:Harness makers]].
     <ns>10</ns>
     <id>25816</id>
     <revision>
-      <id>60871</id>
-      <parentid>60869</parentid>
-      <timestamp>2021-05-27T12:26:12Z</timestamp>
+      <id>127152</id>
+      <parentid>60871</parentid>
+      <timestamp>2024-02-08T13:12:42Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>corrected property name</comment>
-      <origin>60871</origin>
+      <origin>127152</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="229" sha1="gcqoka19upt2x2uo4akzatqpgyk9t1s" xml:space="preserve">&lt;includeonly&gt;{{{1}}}{{#tag:ref|Identified as: {{#arraymap:{{{2}}}|;|x|[[Relates to::Mentions::x]]|;&amp;#32;}}.}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
-      <sha1>gcqoka19upt2x2uo4akzatqpgyk9t1s</sha1>
+      <text bytes="238" sha1="pzdi4ulxe68zgdplkk1k3o2vj5wucfg" xml:space="preserve">&lt;includeonly&gt;{{{1}}}{{#tag:ref|Identified as: {{#arraymap:{{{2}}}|;|x|[[Mentions::x]]{{#set:Relates to=x}}|;&amp;#32;}}.}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
+      <sha1>pzdi4ulxe68zgdplkk1k3o2vj5wucfg</sha1>
     </revision>
   </page>
   <page>
@@ -10553,19 +10526,18 @@ For makers of draught harness, use [[:Category:Harness makers]].
     <ns>10</ns>
     <id>25817</id>
     <revision>
-      <id>60873</id>
-      <parentid>60870</parentid>
-      <timestamp>2021-05-27T12:28:12Z</timestamp>
+      <id>127153</id>
+      <parentid>60873</parentid>
+      <timestamp>2024-02-08T13:13:07Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>corrected property name</comment>
-      <origin>60873</origin>
+      <origin>127153</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="219" sha1="jvkj5zocgvdg778lhpgwdqy8evd1zu5" xml:space="preserve">&lt;includeonly&gt;{{{1}}} [Identified as: {{#arraymap:{{{2}}}|;|x|[[Relates to::Mentions::x]]|;&amp;#32;}}.]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
-      <sha1>jvkj5zocgvdg778lhpgwdqy8evd1zu5</sha1>
+      <text bytes="228" sha1="p15fnx23fjdmg0yxyfufbgrnhpxfk6t" xml:space="preserve">&lt;includeonly&gt;{{{1}}} [Identified as: {{#arraymap:{{{2}}}|;|x|[[Mentions::x]]{{#set:Relates to=x}}|;&amp;#32;}}.]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
+      <sha1>p15fnx23fjdmg0yxyfufbgrnhpxfk6t</sha1>
     </revision>
   </page>
   <page>
@@ -10573,18 +10545,18 @@ For makers of draught harness, use [[:Category:Harness makers]].
     <ns>10</ns>
     <id>25818</id>
     <revision>
-      <id>60872</id>
-      <timestamp>2021-05-27T12:27:25Z</timestamp>
+      <id>127149</id>
+      <parentid>60872</parentid>
+      <timestamp>2024-02-08T13:10:49Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "&lt;includeonly&gt;{{{1}}}{{#tag:ref|Could be: {{#arraymap:{{{2}}}|;|x|[[Relates to::Possibly mentions::x]]|;&amp;#32;}}.}}&lt;/includeonly&gt;&lt;noinclude&gt;See Help:Transcription conventions#..."</comment>
-      <origin>60872</origin>
+      <origin>127149</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="233" sha1="rktq4n8vd0cuqcsc8fca2wm2ub7d48z" xml:space="preserve">&lt;includeonly&gt;{{{1}}}{{#tag:ref|Could be: {{#arraymap:{{{2}}}|;|x|[[Relates to::Possibly mentions::x]]|;&amp;#32;}}.}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
-      <sha1>rktq4n8vd0cuqcsc8fca2wm2ub7d48z</sha1>
+      <text bytes="242" sha1="36okyeuw8uwkfn1xfzr6p3klsi08qcl" xml:space="preserve">&lt;includeonly&gt;{{{1}}}{{#tag:ref|Could be: {{#arraymap:{{{2}}}|;|x|[[Possibly mentions::x]]{{#set:Relates to=x}}|;&amp;#32;}}.}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
+      <sha1>36okyeuw8uwkfn1xfzr6p3klsi08qcl</sha1>
     </revision>
   </page>
   <page>
@@ -10592,18 +10564,18 @@ For makers of draught harness, use [[:Category:Harness makers]].
     <ns>10</ns>
     <id>25819</id>
     <revision>
-      <id>60874</id>
-      <timestamp>2021-05-27T12:28:42Z</timestamp>
+      <id>127150</id>
+      <parentid>60874</parentid>
+      <timestamp>2024-02-08T13:11:14Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "&lt;includeonly&gt;{{{1}}} [Could be: {{#arraymap:{{{2}}}|;|x|[[Relates to::Possibly mentions::x]]|;&amp;#32;}}.]&lt;/includeonly&gt;&lt;noinclude&gt;See Help:Transcription conventions#Named enti..."</comment>
-      <origin>60874</origin>
+      <origin>127150</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="223" sha1="s6i8dnzj640amndnd2dopg0zpiswopv" xml:space="preserve">&lt;includeonly&gt;{{{1}}} [Could be: {{#arraymap:{{{2}}}|;|x|[[Relates to::Possibly mentions::x]]|;&amp;#32;}}.]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
-      <sha1>s6i8dnzj640amndnd2dopg0zpiswopv</sha1>
+      <text bytes="232" sha1="bdabm9y4f0c5kagcnefpby7gm81g1xs" xml:space="preserve">&lt;includeonly&gt;{{{1}}} [Could be: {{#arraymap:{{{2}}}|;|x|[[Possibly mentions::x]]{{#set:Relates to=x}}|;&amp;#32;}}.]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
+      <sha1>bdabm9y4f0c5kagcnefpby7gm81g1xs</sha1>
     </revision>
   </page>
   <page>
@@ -10611,18 +10583,18 @@ For makers of draught harness, use [[:Category:Harness makers]].
     <ns>10</ns>
     <id>25820</id>
     <revision>
-      <id>60875</id>
-      <timestamp>2021-05-27T12:33:53Z</timestamp>
+      <id>127154</id>
+      <parentid>60875</parentid>
+      <timestamp>2024-02-08T13:13:40Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "&lt;includeonly&gt;[[Relates to::Mentions unidentified name::{{{1}}}]]{{#tag:ref|Unidentified.}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for ho..."</comment>
-      <origin>60875</origin>
+      <origin>127154</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="210" sha1="hwryu4s8x8x0t9hun5vlen1cfpz98gi" xml:space="preserve">&lt;includeonly&gt;[[Relates to::Mentions unidentified name::{{{1}}}]]{{#tag:ref|Unidentified.}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
-      <sha1>hwryu4s8x8x0t9hun5vlen1cfpz98gi</sha1>
+      <text bytes="198" sha1="kcjpobz62xrvqhlqaa0q49ghoikywuz" xml:space="preserve">&lt;includeonly&gt;[[Mentions unidentified name::{{{1}}}]]{{#tag:ref|Unidentified.}}&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
+      <sha1>kcjpobz62xrvqhlqaa0q49ghoikywuz</sha1>
     </revision>
   </page>
   <page>
@@ -10630,18 +10602,18 @@ For makers of draught harness, use [[:Category:Harness makers]].
     <ns>10</ns>
     <id>25821</id>
     <revision>
-      <id>60876</id>
-      <timestamp>2021-05-27T12:34:35Z</timestamp>
+      <id>127155</id>
+      <parentid>60876</parentid>
+      <timestamp>2024-02-08T13:13:56Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "&lt;includeonly&gt;[[Relates to::Mentions unidentified name::{{{1}}}]] [Unidentified.]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use t..."</comment>
-      <origin>60876</origin>
+      <origin>127155</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="200" sha1="k3ie6dfw4stf5t3ppr6fgvueg8t99hh" xml:space="preserve">&lt;includeonly&gt;[[Relates to::Mentions unidentified name::{{{1}}}]] [Unidentified.]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
-      <sha1>k3ie6dfw4stf5t3ppr6fgvueg8t99hh</sha1>
+      <text bytes="188" sha1="isij3biz6dtuql4vw5z9ibh3rrbllfd" xml:space="preserve">&lt;includeonly&gt;[[Mentions unidentified name::{{{1}}}]] [Unidentified.]&lt;/includeonly&gt;&lt;noinclude&gt;See [[Help:Transcription conventions#Named entities]] for how to use this template.&lt;/noinclude&gt;</text>
+      <sha1>isij3biz6dtuql4vw5z9ibh3rrbllfd</sha1>
     </revision>
   </page>
   <page>
