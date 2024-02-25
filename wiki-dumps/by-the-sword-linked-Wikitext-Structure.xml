@@ -2195,16 +2195,18 @@ This template was adapted from [https://www.collaborativecollections.org/WorldWa
     <ns>10</ns>
     <id>52</id>
     <revision>
-      <id>59</id>
-      <timestamp>2024-01-26T19:09:35Z</timestamp>
+      <id>35182</id>
+      <parentid>35163</parentid>
+      <timestamp>2024-02-25T18:59:57Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <origin>59</origin>
+      <minor/>
+      <origin>35182</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2155" sha1="lfpuyd45g9htlm64eab482oofulzlo0" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="2182" sha1="fpo3ismjrrwvglv2k65m52gcrfgtxmn" xml:space="preserve">&lt;noinclude&gt;
 This is the "Agent" template. It is used by [[Form:Agent]] and should not be used separately. Edit the page to see the template text.
 &lt;/noinclude&gt;&lt;includeonly&gt;__NOEDITSECTION__[[has description::{{{Description|No description entered.}}}]] ''{{{Disambiguation|&amp;#32;}}}''
 
@@ -2256,12 +2258,13 @@ Dates in ''italic'' are earliest or latest known dates. Non-italic dates are def
 
 {| class="swordinfotable"
 ![[Property:Has organization|Organization]]:
+![[Property:Ordinal|Ord]]:
 ![[Property:Has role|Role]]:
 !'''Earliest''':
 !'''Latest''':
 !'''Source''':
 {{{Personnel|{{!}}-
-{{!}}colspan="5"{{!}}This agent has not been linked to any organizations.}}}
+{{!}}colspan="6"{{!}}This agent has not been linked to any organizations.}}}
 |}
 
 ==Query for sources==
@@ -2277,7 +2280,7 @@ Dates in ''italic'' are earliest or latest known dates. Non-italic dates are def
 {{#arraymap:{{{Categories|}}}|;|x|[[Category:x]]|&amp;#32;}}
 [[Category:Agents]]
 &lt;/includeonly&gt;</text>
-      <sha1>lfpuyd45g9htlm64eab482oofulzlo0</sha1>
+      <sha1>fpo3ismjrrwvglv2k65m52gcrfgtxmn</sha1>
     </revision>
   </page>
   <page>
@@ -2285,17 +2288,19 @@ Dates in ''italic'' are earliest or latest known dates. Non-italic dates are def
     <ns>106</ns>
     <id>53</id>
     <revision>
-      <id>60</id>
-      <timestamp>2024-02-05T09:40:21Z</timestamp>
+      <id>35180</id>
+      <parentid>35166</parentid>
+      <timestamp>2024-02-25T17:04:34Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <origin>60</origin>
+      <comment>typo</comment>
+      <origin>35180</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4598" sha1="m0c38i3sxssg5m81f46yw68pb002lfa" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="4685" sha1="fm6xoupgyjxczk2k4gdhffg4qhz8e9u" xml:space="preserve">&lt;noinclude&gt;
 This is the "Agent" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -2382,6 +2387,9 @@ For reference, the code for the standard query is shown below. You can copy this
 ! Organization: 
 | {{{field|Member of|input type=tokens|placeholder=Start typing for autocomplete suggestions|values from concept=Autocomplete instance with personnel|property=Has organization|list|delimiter=;|size=45}}}
 |-
+! Ordinal (digits only): 
+| {{{field|Ordinal|input type=text|size=2|maxlength=2}}}
+|-
 ! Role: 
 | {{{field|Role|input type=text with autocomplete|placeholder=Start typing for autocomplete suggestions|values from category=Personnel roles|property=Has role|size=45}}}
 |-
@@ -2389,7 +2397,7 @@ For reference, the code for the standard query is shown below. You can copy this
 | {{{field|Earliest date type|input type=dropdown|values=earliest known date,definite start date|default=earliest known date}}}{{{field|Earliest date|input type=text|size=13|maxlength=13|placeholder=YYYY-MM-DD JL}}}
 |-
 ! To:
-| {{{field|Latestdate type|input type=dropdown|values=latest known date,definite end date|default=latest known date}}}{{{field|Latest date|input type=text|size=13|maxlength=13|placeholder=YYYY-MM-DD JL}}}
+| {{{field|Latest date type|input type=dropdown|values=latest known date,definite end date|default=latest known date}}}{{{field|Latest date|input type=text|size=13|maxlength=13|placeholder=YYYY-MM-DD JL}}}
 |-
 ! Sources: 
 | {{{field|Role ref|input type=textarea|rows=5|cols=45|placeholder=You can use wiki markup to create links here.}}}
@@ -2418,7 +2426,7 @@ You can use the text area below to create manual links to sources. These can be:
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>m0c38i3sxssg5m81f46yw68pb002lfa</sha1>
+      <sha1>fm6xoupgyjxczk2k4gdhffg4qhz8e9u</sha1>
     </revision>
   </page>
   <page>
@@ -2484,27 +2492,30 @@ Values are listed in [[:Category:Personnel roles]].</text>
     <ns>10</ns>
     <id>57</id>
     <revision>
-      <id>64</id>
-      <timestamp>2024-02-05T09:35:56Z</timestamp>
+      <id>35162</id>
+      <parentid>64</parentid>
+      <timestamp>2024-02-23T14:39:07Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>now only allows 1 role</comment>
-      <origin>64</origin>
+      <comment>added property 'Ordinal' for numbering peers and barts</comment>
+      <origin>35162</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="952" sha1="ccmaiq9gdwhz6llu4x6fzant8xouhko" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="994" sha1="qqgtv1f5kpc9iu9psz6vckadj9uoxzd" xml:space="preserve">&lt;noinclude&gt;
 This is the "Personnel" template. It is used by [[Form:Agent]] and should not be used separately.
 &lt;/noinclude&gt;&lt;includeonly&gt;
 |-
 | {{#arraymap:{{{Member of|Unknown}}}|;|xx|[[xx]]|&lt;br/&gt;}}
+| {{{Ordinal|}}}
 | [[{{{Role|Unknown}}}]]
 | {{#tag: date|| when = {{{Earliest date|}}} | format=column | exact={{{Earliest date type|earliest known date}}} }}
 | {{#tag: date|| when = {{{Latest date|}}} | format=column | exact={{{Latest date type|latest known date}}} }}
 | {{#if: {{{Role ref|}}} | {{#tag: ref | {{{Role ref|}}} }} |&amp;nbsp;&lt;sup&gt;Needs source&lt;/sup&gt; }}{{#subobject:
  |Has member={{PAGENAME}}
  |Has organization={{{Member of|Unknown}}}|+sep=;
+ |Ordinal={{{Ordinal|}}}
  |Has role={{{Role|Unknown}}}
  |Has {{{Earliest date type|earliest known date}}}={{{Earliest date| }}}
  |Has {{{Latest date type|latest known date}}}={{{Latest date| }}}
@@ -2513,7 +2524,7 @@ This is the "Personnel" template. It is used by [[Form:Agent]] and should not be
  |Is instance of=Personnel relationship
 }}
 &lt;/includeonly&gt;</text>
-      <sha1>ccmaiq9gdwhz6llu4x6fzant8xouhko</sha1>
+      <sha1>qqgtv1f5kpc9iu9psz6vckadj9uoxzd</sha1>
     </revision>
   </page>
   <page>
@@ -2629,16 +2640,18 @@ Latitude comes first, and longitude second, separated by a comma. You can enter 
     <ns>10</ns>
     <id>63</id>
     <revision>
-      <id>70</id>
-      <timestamp>2024-01-26T15:55:22Z</timestamp>
+      <id>35183</id>
+      <parentid>35164</parentid>
+      <timestamp>2024-02-25T19:00:21Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <origin>70</origin>
+      <minor/>
+      <origin>35183</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="9491" sha1="cgl76u5bamjji0wxltz4qdt3kxu4hlv" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="9868" sha1="4mo48kw88py13mon4hq2dz8wj13sf20" xml:space="preserve">&lt;noinclude&gt;
 This is the "Area" template. It is used by [[Form:Area]] and should not be used separately. Edit the page to see the template text.
 &lt;/noinclude&gt;&lt;includeonly&gt;__NOEDITSECTION__[[has description::{{{Description|No description entered.}}}]] ''{{{Disambiguation|&amp;#32;}}}''
 
@@ -2732,6 +2745,26 @@ Dates in ''italic'' are earliest or latest known dates. Non-italic dates are def
 == Personnel ==
 
 Personnel should not be linked to an allegiance faction as it represents the allegiance of an organization, not a person. It is only used for Agents to define their roles in combat events
+|Duchy
+|Marquessate
+|Earldom
+|Viscountcy
+|Barony
+|Lordship of Parliament
+|Baronetcy = ==Personnel==
+
+{{{Pers query|{{#ask:
+[[Has organization::{{PAGENAME}}]]
+| ?Has member=Name
+| ?Ordinal=Ord
+| ?Has role=Role
+| ?Has earliest known date=Earliest
+| ?Has latest known date=Latest
+| mainlabel=-
+| limit=30
+| default=No linked personnel found.
+| sort=Has earliest known date
+}} }}}
 |Diocese = ==Subordinates==
 
 {{{Subord query|{{#ask:
@@ -2978,7 +3011,7 @@ No rural deans were appointed in the 17th century.
 {{#if: {{{Sort by|}}} | {{DEFAULTSORT:{{{Sort by|}}} }} | }}
 [[Category:Areas]]
 &lt;/includeonly&gt;</text>
-      <sha1>cgl76u5bamjji0wxltz4qdt3kxu4hlv</sha1>
+      <sha1>4mo48kw88py13mon4hq2dz8wj13sf20</sha1>
     </revision>
   </page>
   <page>
@@ -6835,18 +6868,18 @@ Line breaks in the original text are not usually represented here. Optionally yo
     <ns>12</ns>
     <id>129</id>
     <revision>
-      <id>136</id>
-      <timestamp>2024-02-13T09:10:39Z</timestamp>
+      <id>35165</id>
+      <parentid>136</parentid>
+      <timestamp>2024-02-23T14:51:18Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>fixed broken links</comment>
-      <origin>136</origin>
+      <comment>/* Personnel subobject */ new property 'Ordinal'</comment>
+      <origin>35165</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="64666" sha1="s4f5d97i1v6nm54wz9vqytdt706kitb" xml:space="preserve">(This page needs updating when current changes to forms, templates and properties are complete.)
+      <text bytes="64814" sha1="dcc3iynevetv1qpffqp0c668tgs7nwl" xml:space="preserve">(This page needs updating when current changes to forms, templates and properties are complete.)
 
 This page gives an overview of this site's semantic data structures. See also [[Help:Create a page]] for a brief guide to the basic entity types and their associated forms.
 
@@ -6916,6 +6949,7 @@ A repeatable template which creates a subobject embedded in an Agent page to lin
 * [[Property:Is instance of|Is instance of]]: always automatically set to [[Personnel relationship]].
 * [[Property:Has member|Has member]] (type: page; single value): always automatically set to the name of the page that the subobject is embedded in because it refers to that agent, but the agent is a separate entity in relation to the object that represents the relationship. This saves an extra level of query to find out which page the object is on.
 * [[Property:Has organization|Has organization]] (type: page; multiple values): the organization that the agent was in, usually a Unit or Area. Can have multiple values because the same role can be held at the same time in organizations that we model separately. For example, MPs will be related to the House of Commons and a constituency.
+* [[Property:Ordinal|Ordinal]] (type: number; single value): the number of the holder of a peerage or baronetcy. For example, '3' for the 3rd Earl.
 * [[Property:Has role|Has role]] (type: page; single value): the role or rank that the agent held in the organization. Possible values come from [[:Category:Personnel roles]] and more can be added.
 * start date can use either of the following properties, depending on whether it is known precisely:
 ** [[Property:Has definite start date|Has definite start date]] (type: date; single value): if the relationship definitely started on this day.
@@ -7511,7 +7545,7 @@ In the following list, the values assigned to the second-level properties (which
 ** [[Property:Has definite end date|Has definite end date]]
 
 [[Category:Help pages]]</text>
-      <sha1>s4f5d97i1v6nm54wz9vqytdt706kitb</sha1>
+      <sha1>dcc3iynevetv1qpffqp0c668tgs7nwl</sha1>
     </revision>
   </page>
   <page>
@@ -7764,18 +7798,18 @@ It looks like query results at [[Special:Ask]] will never be cached by anything.
     <ns>4</ns>
     <id>137</id>
     <revision>
-      <id>29195</id>
-      <parentid>144</parentid>
-      <timestamp>2024-02-15T19:48:35Z</timestamp>
+      <id>35168</id>
+      <parentid>29195</parentid>
+      <timestamp>2024-02-23T20:47:00Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Resolved issues */ upgrade has solved many issues</comment>
-      <origin>29195</origin>
+      <comment>/* Quirks */ results missing from queries if property used for sorting has no value</comment>
+      <origin>35168</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6377" sha1="kzmaymmzg79n1kfs90yzmfyt6prewz0" xml:space="preserve">__TOC__
+      <text bytes="6596" sha1="q1vp6tykbwv3qoy4i0vt9otie1cxm1h" xml:space="preserve">__TOC__
 
 == Outstanding issues ==
 
@@ -7804,6 +7838,7 @@ These problems have been found during testing and not yet solved:
 
 These are minor problems that can be worked around, or things that have to be done a certain way. Some of these are irrelevant to most users because they only affect the main templates, but admins need to be reminded.
 
+* if a query has a sort order set, pages that meet the criteria will be excluded if they have no value for the property that is used for sorting. Make sure that sort order only uses properties that always have a value.
 * semantic tags can't be nested in other semantic tags.
 * semantic text properties can't contain wikilinks or footnotes.
 * categories entered using autocomplete in forms can have sort key added but needs to use magic word instead of pipe because they are inside a template parameter.
@@ -7827,7 +7862,7 @@ These are minor problems that can be worked around, or things that have to be do
 * unit and agent page names should not include / characters because they conflict with paths to subpage names in Locations and Events namespaces. Use \ instead.
 * mod_security doesn't allow inline CSS. To get custom styling, add a class to a div or span tag and define that class in [[Mediawiki:Common.css]].
 * if [[Special:WantedPages]] is out of date but no jobs in queue, use [https://www.mediawiki.org/wiki/Manual:UpdateSpecialPages.php updateSpecialPages.php] maintenance script.</text>
-      <sha1>kzmaymmzg79n1kfs90yzmfyt6prewz0</sha1>
+      <sha1>q1vp6tykbwv3qoy4i0vt9otie1cxm1h</sha1>
     </revision>
   </page>
   <page>
@@ -8473,17 +8508,18 @@ Existing pages that use this form are listed in [[:Category:Blank pages]].
     <ns>4</ns>
     <id>153</id>
     <revision>
-      <id>160</id>
-      <timestamp>2023-07-26T11:15:11Z</timestamp>
+      <id>29223</id>
+      <parentid>160</parentid>
+      <timestamp>2024-02-20T12:27:02Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>changed licence to CC-BY-SA</comment>
-      <origin>160</origin>
+      <comment>/* Adding material to this site */ links to compatible licences</comment>
+      <origin>29223</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="4504" sha1="jofw8gf8g2p0p4l9dbmq2qnlb1f88nt" xml:space="preserve">__TOC__
+      <text bytes="4558" sha1="fngacfuzegeoid7eneqzcc4rszfw1dv" xml:space="preserve">__TOC__
 
 == Using material from this site ==
 
@@ -8501,7 +8537,11 @@ Embedded maps are from [https://www.openstreetmap.org/ OpenStreetMap]. They have
 
 In order to be published on this site, text or data must be:
 
-* '''either''' released under a valid licence that is compatible with CC-BY-SA. Valid means that it must be licensed by someone who has the legal right to do so. Compatible usually means CC0, CC-BY, CC-BY-SA or OGL.
+* '''either''' released under a valid licence that is compatible with CC-BY-SA. Valid means that it must be licensed by someone who has the legal right to do so. Compatible usually means one of:
+** [[CC0]]
+** [[CC-BY]]
+** [[CC-BY-SA]]
+** [[Open Government Licence|OGL]]
 * '''or''' free from all possible restrictions. This includes contracts and terms of use as well as intellectual property rights. To meet this condition:
 ** copyright and database right must have expired or never subsisted in the first place. This includes new copyrights in a derivative work that includes editorial changes to a work that is out of copyright in its original version.
 ** there must not be any claims to own intellectual property in the material, even if these claims are potentially dubious or actually being disputed. We prefer to be cautious in these cases in order to avoid conflict.
@@ -8520,7 +8560,7 @@ The Internet Archive is treated on a case by case basis: if a copy published the
 == Jurisdiction ==
 
 This site is hosted in the UK and is governed by UK copyright law. Our policies are based on UK copyright law. Accessing this site or reusing material from it may (or may not) infringe copyright in other jurisdictions.</text>
-      <sha1>jofw8gf8g2p0p4l9dbmq2qnlb1f88nt</sha1>
+      <sha1>fngacfuzegeoid7eneqzcc4rszfw1dv</sha1>
     </revision>
   </page>
   <page>
@@ -10747,31 +10787,41 @@ You can use this box to add links to external websites that are relevant to this
     <ns>12</ns>
     <id>229</id>
     <revision>
-      <id>29207</id>
-      <parentid>236</parentid>
-      <timestamp>2024-02-17T09:42:37Z</timestamp>
+      <id>29215</id>
+      <parentid>29207</parentid>
+      <timestamp>2024-02-17T17:00:44Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>don't have to log in to write and run a query</comment>
-      <origin>29207</origin>
+      <comment>rearranged page</comment>
+      <origin>29215</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1307" sha1="gv6y0zn7iue2brb047vlerc7yl4tdjr" xml:space="preserve">You can use semantic queries to search the data on this site.
+      <text bytes="1377" sha1="5ynk9p4jy4fpvg3yhx66tj78mfabtk9" xml:space="preserve">You can use semantic queries to search the data on this site.
 
 * [[Special:Ask]] allows you to write your own queries using Semantic Mediawiki's own query language. You don't have to log in to write a query, and you can export the results. For more help, see:
 ** [https://www.semantic-mediawiki.org/wiki/Help:Semantic_search Semantic Mediawiki help page: Semantic search], which gives an introduction and examples.
 ** [[Help:Data structures]], which documents the properties we use at this site.
-* [[Special:RunQuery/Search_events_by_date|Search events by date]] provides a simple form that lets you search for events that happened within a specified date range.
-* [[Events:Map of combat events|Map of combat events]] is a ready-made query that shows each [[combat event]] on a map, if it has a page on this site and the page includes coordinates.
-* [[Locations:Map of cathedrals|Map of cathedrals]] is a ready-made query that shows every instance of [[cathedral]] on a map, if it has coordinates.
-* [[Special:RunQuery/Journals by month of issue|Journals by month of issue]] provides a simple form that lets you search for journals that are expected to publish new issues in the selected month.
 
 Most pages also have semantic queries built into them to display links to other pages.
 
+==Query forms==
+
+These forms allow you to enter criteria for a query:
+
+* [[Special:RunQuery/Search_events_by_date|Search events by date]] provides a simple form that lets you search for events that happened within a specified date range.
+* [[Special:RunQuery/Journals by month of issue|Journals by month of issue]] provides a simple form that lets you search for journals that are expected to publish new issues in the selected month.
+
+==Maps==
+
+These ready-made queries display a map:
+
+* [[Events:Map of combat events|Map of combat events]] shows each [[combat event]] on a map, if it has a page on this site and the page includes coordinates.
+* [[Locations:Map of cathedrals|Map of cathedrals]] shows every instance of [[cathedral]] on a map, if it has coordinates.
+
 [[Category:Help pages]]</text>
-      <sha1>gv6y0zn7iue2brb047vlerc7yl4tdjr</sha1>
+      <sha1>5ynk9p4jy4fpvg3yhx66tj78mfabtk9</sha1>
     </revision>
   </page>
   <page>
@@ -11447,18 +11497,18 @@ This page is a [[Property:Is version of|version of]]: {{#arraymap:{{{Parent work
     <ns>106</ns>
     <id>244</id>
     <revision>
-      <id>251</id>
-      <timestamp>2024-02-07T10:01:32Z</timestamp>
+      <id>29225</id>
+      <parentid>251</parentid>
+      <timestamp>2024-02-20T14:06:29Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <comment>Text replacement - "values from category=Copyright status" to "values from concept=Autocomplete copyright status"</comment>
-      <origin>251</origin>
+      <origin>29225</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3461" sha1="qzb1olt0ts44ky5nwpq7d3v5reft9ki" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="3493" sha1="pzmnkh7vdjhcu27c3xobcwwjzobk964" xml:space="preserve">&lt;noinclude&gt;
 This is the "Modern edition" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -11475,17 +11525,17 @@ if a page with that name already exists, you will be sent to a form to edit that
 {| class="formtable"
 |-
 ! Description: 
-| {{{field|Description|input type=textarea}}}
+| {{{field|Description|input type=textarea|cols=45}}}
 |-
 ! Sort key: 
 | {{{field|Sort by|input type=text}}}
 |-
 ! Parent work(s): 
-| {{{field|Parent work|list|delimiter=;|input type=tokens|values from category=Works|placeholder=Start typing for autocomplete suggestions}}}
+| {{{field|Parent work|list|delimiter=;|input type=tokens|values from category=Works|placeholder=Start typing for autocomplete suggestions|cols=45}}}
 |-
 ! Created by: 
 | {{{field|Created by|values from concept=Autocomplete creators
-|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
+|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions|cols=45}}}
 |-
 ! Title: 
 | {{{field|Title|input type=textarea|cols=45}}}
@@ -11494,7 +11544,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 | {{{field|First pub|input type=text|size=4|maxlength=4|placeholder=YYYY}}}
 |-
 ! In series: 
-| {{{field|Series|input type=tokens|values from category=Serial publications|list|delimiter=;|placeholder=Start typing for autocomplete suggestions}}}
+| {{{field|Series|input type=tokens|values from category=Serial publications|list|delimiter=;|placeholder=Start typing for autocomplete suggestions|cols=45}}}
 |-
 ! Volume in series: 
 | {{{field|Volume number|list|delimiter=;|size=20|input type=text}}}
@@ -11583,7 +11633,7 @@ Publication year will be automatically added to the heading.
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>qzb1olt0ts44ky5nwpq7d3v5reft9ki</sha1>
+      <sha1>pzmnkh7vdjhcu27c3xobcwwjzobk964</sha1>
     </revision>
   </page>
   <page>
@@ -12698,6 +12748,55 @@ This concept provides a list of autocomplete values for [[Property:Is role in]] 
 
 [[Category:Help pages]]</text>
       <sha1>nm4i9p3p3ml3a1f8otqxb6yyvmcddaa</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Template:Cite wp fact</title>
+    <ns>10</ns>
+    <id>29187</id>
+    <revision>
+      <id>35167</id>
+      <parentid>29236</parentid>
+      <timestamp>2024-02-23T20:30:53Z</timestamp>
+      <contributor>
+        <username>Gavin</username>
+        <id>1</id>
+      </contributor>
+      <comment>reworded</comment>
+      <origin>35167</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="523" sha1="35vub2s9v96k35h4wzbarbe4w60t3fe" xml:space="preserve">&lt;includeonly&gt;[[Wikipedia:{{{1|}}}]] (available under [[CC-BY-SA]]). Facts taken from Wikipedia without reproducing a substantial amount of text.&lt;/includeonly&gt;&lt;noinclude&gt;This template is used to cite Wikipedia pages as sources for facts when a substantial amount of text has not been copied from Wikipedia.
+
+It has one unnamed parameter, which should be the name of a single page at English Wikipedia. For example:
+
+:&lt;nowiki&gt;{{Cite wp fact|New Model Army}}&lt;/nowiki&gt;
+
+Results in:
+
+:{{Cite wp fact|New Model Army}}&lt;/noinclude&gt;</text>
+      <sha1>35vub2s9v96k35h4wzbarbe4w60t3fe</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Property:Ordinal</title>
+    <ns>102</ns>
+    <id>31939</id>
+    <revision>
+      <id>35161</id>
+      <parentid>35160</parentid>
+      <timestamp>2024-02-23T14:37:08Z</timestamp>
+      <contributor>
+        <username>Gavin</username>
+        <id>1</id>
+      </contributor>
+      <origin>35161</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="422" sha1="me7ji4lnaebsrufncoy2rr7wl4hr2y6" xml:space="preserve">This is a property of type [[Has type::Number]]. It is used by [[Template:Personnel subobject]] to show the number of a title holder in a peerage or baronetcy. Although it is called '''Ordinal''', the value should be a cardinal integer. This matches the Wikidata property [[Wikidata:Property:P1545|series ordinal]].
+
+Example: for [[Devereux, Robert (3rd Earl of Essex)]] as [[Earl of Essex (1572)]], the value should be 3.</text>
+      <sha1>me7ji4lnaebsrufncoy2rr7wl4hr2y6</sha1>
     </revision>
   </page>
 </mediawiki>
