@@ -5,7 +5,7 @@ This folder provides dumps of the entire [By The Sword Linked](https://www.bythe
 
 Data files available are as follows:
 
-- by-the-sword-linked-RDF-dump.rdf.zip: all semantic properties from the wiki exported as OWL DL serialized as RDF/XML. This does not include free text or non-semantic template parameters. Has to be zipped otherwise it's too big to upload to Github.
+- by-the-sword-linked-RDF-dump.rdf.zip: all semantic properties from individual entities in the wiki exported as OWL DL serialized as RDF/XML. This does not include free text or non-semantic template parameters. Has to be zipped otherwise it's too big to upload to Github.
 - by-the-sword-linked-Wikitext-Structure.xml: the wikitext source code of every page in the following namespaces: Mediawiki, Project, Property, Template, Form, Category, Help. This gives the data structures of the wiki without the content. Exported as [wikitext XML](https://www.mediawiki.org/wiki/Help:Export#Export_format).
 - by-the-sword-linked-Wikitext-Content.xml.zip: the wikitext source code of every page in the following namespaces: Main, Events, Locations. This gives the content which goes with the data structures above. Exported as [wikitext XML](https://www.mediawiki.org/wiki/Help:Export#Export_format). Has to be zipped otherwise it's too big to upload to Github.
 
@@ -79,8 +79,8 @@ URL: `http://www.marinelives.org/wiki/$1`
 
  ### Other local settings
 
-For dumps up to and including 8 February 2024, you will need to disable parser strict mode to allow multiple assignments of properties in one semantic tag:
+For dumps up to and including 13 February 2024, you will need to disable parser strict mode to allow multiple assignments of properties in one semantic tag:
 
 `$smwgParserFeatures = SMW_PARSER_INL_ERROR | SMW_PARSER_HID_CATS;`
 
-Dumps made on or after 13 February 2024 will not need this as they no longer use multiple assignments. Extra properties are assigned using the #set parser function instead.
+Dumps made on or after 17 February 2024 will not need this as they no longer use multiple assignments. Extra properties are assigned using the #set parser function instead.
