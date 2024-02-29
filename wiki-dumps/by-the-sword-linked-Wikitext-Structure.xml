@@ -422,17 +422,18 @@ A content warning should be added to this property if a page needs one.</text>
     <ns>106</ns>
     <id>15</id>
     <revision>
-      <id>22</id>
-      <timestamp>2024-02-05T10:34:04Z</timestamp>
+      <id>37841</id>
+      <parentid>22</parentid>
+      <timestamp>2024-02-29T08:38:59Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>temp removed autocomplete from main NS</comment>
-      <origin>22</origin>
+      <minor/>
+      <origin>37841</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1290" sha1="d7mktuqn1xtvqqvjz679n27gsh9wf7q" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="1290" sha1="sfu19jnid1a1goi72k55hik3xar25f6" xml:space="preserve">&lt;noinclude&gt;
 This is the "GLAM" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -473,7 +474,7 @@ Existing pages that use this form are listed in [[:Category:GLAMs]].
 
 You can use this to add any extra information about this GLAM that the official website doesn't tell you.
 
-{{{section|Any other information|level=2|rows=10|hide if empty}}}
+{{{section|Any other information|level=2|rows=15|hide if empty}}}
 
 &lt;headertabs/&gt;
 
@@ -483,7 +484,7 @@ You can use this to add any extra information about this GLAM that the official 
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>d7mktuqn1xtvqqvjz679n27gsh9wf7q</sha1>
+      <sha1>sfu19jnid1a1goi72k55hik3xar25f6</sha1>
     </revision>
   </page>
   <page>
@@ -720,18 +721,18 @@ __TOC__
     <ns>106</ns>
     <id>24</id>
     <revision>
-      <id>31</id>
-      <timestamp>2024-02-05T10:49:00Z</timestamp>
+      <id>37819</id>
+      <parentid>37817</parentid>
+      <timestamp>2024-02-28T13:32:50Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <comment>Text replacement - "|values from namespace=Main" to ""</comment>
-      <origin>31</origin>
+      <origin>37819</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2438" sha1="r58n2huhzgfnawtaa290fjhvwj72bvc" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="2438" sha1="1mqxue42mboek6elpnqvs4xv4ov6no2" xml:space="preserve">&lt;noinclude&gt;
 This is the "Collection" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -792,13 +793,13 @@ Check the box if the following applies:
 
 Enter any other copyright acknowledgements in this box:
 
-{{{field|Other copyright|input type=textarea|rows=20}}}
+{{{field|Other copyright|input type=textarea|rows=10}}}
 
 = Free text =
 
 == Any other information ==
 
-{{{section|Any other information|level=2|rows=10|hide if empty}}}
+{{{section|Any other information|level=2|rows=15|hide if empty}}}
 
 &lt;headertabs/&gt;
 
@@ -808,7 +809,7 @@ Enter any other copyright acknowledgements in this box:
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>r58n2huhzgfnawtaa290fjhvwj72bvc</sha1>
+      <sha1>1mqxue42mboek6elpnqvs4xv4ov6no2</sha1>
     </revision>
   </page>
   <page>
@@ -4446,19 +4447,18 @@ __TOC__
     <ns>106</ns>
     <id>96</id>
     <revision>
-      <id>29210</id>
-      <parentid>29209</parentid>
-      <timestamp>2024-02-17T10:10:57Z</timestamp>
+      <id>37823</id>
+      <parentid>29210</parentid>
+      <timestamp>2024-02-28T16:06:11Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>removed Wikidata autocomplete: too slow to be useful</comment>
-      <origin>29210</origin>
+      <minor/>
+      <origin>37823</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2352" sha1="ouip0micytmjq2gn3w1yqtga4u8euvc" xml:space="preserve">__NOTOC__
-&lt;noinclude&gt;
+      <text bytes="2352" sha1="39gzik1tzatvm6sjjb5g5qj4ucn6mg4" xml:space="preserve">&lt;noinclude&gt;
 This is the "Author" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -4468,6 +4468,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 
 Existing pages that use this form are listed in [[:Category:Authors]].
 &lt;/noinclude&gt;&lt;includeonly&gt;
+__NOTOC__
 =Basic data=
 {{{for template|Author}}}
 {| class="formtable"
@@ -4525,7 +4526,7 @@ For reference, the code for the standard query is shown below. You can copy this
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>ouip0micytmjq2gn3w1yqtga4u8euvc</sha1>
+      <sha1>39gzik1tzatvm6sjjb5g5qj4ucn6mg4</sha1>
     </revision>
   </page>
   <page>
@@ -7798,18 +7799,18 @@ It looks like query results at [[Special:Ask]] will never be cached by anything.
     <ns>4</ns>
     <id>137</id>
     <revision>
-      <id>35168</id>
-      <parentid>29195</parentid>
-      <timestamp>2024-02-23T20:47:00Z</timestamp>
+      <id>37799</id>
+      <parentid>37798</parentid>
+      <timestamp>2024-02-26T20:19:59Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Quirks */ results missing from queries if property used for sorting has no value</comment>
-      <origin>35168</origin>
+      <comment>/* Quirks */ arranged into sub-headings</comment>
+      <origin>37799</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6596" sha1="q1vp6tykbwv3qoy4i0vt9otie1cxm1h" xml:space="preserve">__TOC__
+      <text bytes="6769" sha1="5wz1ra74vv4qkd0zb6a3nsv3pgc25gi" xml:space="preserve">__TOC__
 
 == Outstanding issues ==
 
@@ -7817,6 +7818,7 @@ These problems have been found during testing and not yet solved:
 
 * February 2024:
 ** forms can't get autocomplete values from Main namespace because it causes a CPU spike and stops the form from loading. To stop this, 'values from namespace=Main' has been removed from forms, but this limits the autocomplete values available.
+** some inline query results are sorting in an unexpected order.
 * December 2023: broken links:
 ** BCW Project Regimental wiki is currently down, but [http://theminiaturespage.com/boards/msg.mv?id=573695 discussion at The Miniatures Page forum] suggests it will come back. Snapshots can be viewed at the [https://web.archive.org/web/20230204055359/https://wiki.bcw-project.org/start Internet Archive] but links from By The Sword Linked have not been updated to point to the archived versions.
 ** the cyber attack on the British Library has led to the following links breaking:
@@ -7838,31 +7840,48 @@ These problems have been found during testing and not yet solved:
 
 These are minor problems that can be worked around, or things that have to be done a certain way. Some of these are irrelevant to most users because they only affect the main templates, but admins need to be reminded.
 
-* if a query has a sort order set, pages that meet the criteria will be excluded if they have no value for the property that is used for sorting. Make sure that sort order only uses properties that always have a value.
+===Semantic properties===
+
 * semantic tags can't be nested in other semantic tags.
 * semantic text properties can't contain wikilinks or footnotes.
-* categories entered using autocomplete in forms can have sort key added but needs to use magic word instead of pipe because they are inside a template parameter.
-* all tags that use template parameters must use the parser function #tag and not raw XML tags to ensure that everything is parsed in the correct order.
+* subproperties should not be used because they make it difficult to display subproperty values in query results. Simple hierarchies can be simulated by assigning the same value to more than one property, but the extra property must be assigned using #set. Multiple assignments in the same semantic link tag should no longer be used because they are not compatible with parser strict mode.
+
+===Queries===
+
+* if a query has a sort order set, pages that meet the criteria will be excluded if they have no value for the property that is used for sorting. Make sure that sort order only uses properties that always have a value.
 * when linking to a map query, result format should be 'leaflet' and there '''should not''' be a space after =
 ** this works: format=leaflet
 ** this doesn't work: format = leaflet
-* date parameters should pass a single space, not an empty string, as default value. This default value can be passed straight to #set without any sanity checks. Passing an empty string causes problems.
-* interwiki links to Marine Lives need to be set up manually after a new install (this may include upgrades to a new Mediawiki version).
-* in forms, free text sections must always go '''after''' all templates otherwise things go wrong.
-* subproperties should not be used because they make it difficult to display subproperty values in query results. Simple hierarchies can be simulated by assigning the same value to more than one property, but the extra property must be assigned using #set. Multiple assignments in the same semantic link tag should no longer be used because they are not compatible with parser strict mode.
 * when using #ask parser function to make inline queries, limit=0 creates a link to the query without running it or saying whether there are any results, limit=-1 stops the query from working at all and should never be used. This does not match the documentation.
-* if Litespeed cache needs to be tried again, the version at Mediawiki extensions website is out of date. Get the latest version from [https://github.com/litespeedtech/lscache_mediawiki/ Github].
-* 'show on select' doesn't work with combobox inputs.
 * the query language apparently has no way to exclude pages from query results according to specified criteria because the NOT operator finds all pages that have a property value that is not the one specified. This means that a page with multiple values for a property will be included in query results if it has the excluded value and at least one other value; but a page will be excluded from query results if it has no value for that property. Therefore the NOT operator can only reliably be used on properties that always have exactly one value. This will work for [[Property:Is instance of]] but many other properties will make queries behave strangely if the NOT operator is used.
-* page names containing non-ASCII accented characters seem to sort in a strange order in categories. Need to find out what the correct order is in the relevant languages and set sort keys if necessary.
+
+===Templates===
+
+* all tags that use template parameters must use the parser function #tag and not raw XML tags to ensure that everything is parsed in the correct order.
+* date parameters should pass a single space, not an empty string, as default value. This default value can be passed straight to #set without any sanity checks. Passing an empty string causes problems.
+
+===Forms===
+
+* categories entered using autocomplete in forms can have sort key added but needs to use magic word instead of pipe because they are inside a template parameter.
+* in forms, free text sections must always go '''after''' all templates otherwise things go wrong.
+* 'show on select' doesn't work with combobox inputs.
 * when editing a page using a form, autocomplete suggestions match any characters and are sorted in alphabetical order without prioritising exact matches or matches at the start of the page name. This is inconvenient when linking to a county because every place name in that county will match, and many will come before the county itself. Turning off character matching would also disable accent folding.
 * leaflet input in forms works if it's on the first header tab but not on the second. For now, leaflet inputs are kept on the first tab but a better solution will be needed in future.
-* using [[Special:ReplaceText]] to update incoming links after moving a page will go wrong if the page name to be changed is a substring of another page name.
 * creating Events and Location pages via red link from Unit or Agent pages wouldn't work if page name included an apostrophe (and possibly other special characters). Target of #formlink should use &lt;nowiki&gt;{{PAGENAMEE}}&lt;/nowiki&gt; to URL encode the page name, but URL encoding should NOT be used in #ifexists or normal wikilinks. Still not clear whether this problem affects #formredlink but #formredlink is not currently used.
+
+===Page names===
+
+* page names containing non-ASCII accented characters seem to sort in a strange order in categories. Need to find out what the correct order is in the relevant languages and set sort keys if necessary.
+* using [[Special:ReplaceText]] to update incoming links after moving a page will go wrong if the page name to be changed is a substring of another page name.
 * unit and agent page names should not include / characters because they conflict with paths to subpage names in Locations and Events namespaces. Use \ instead.
+
+===Other===
+
+* interwiki links to Marine Lives need to be set up manually after a new install (this may include upgrades to a new Mediawiki version).
+* if Litespeed cache needs to be tried again, the version at Mediawiki extensions website is out of date. Get the latest version from [https://github.com/litespeedtech/lscache_mediawiki/ Github].
 * mod_security doesn't allow inline CSS. To get custom styling, add a class to a div or span tag and define that class in [[Mediawiki:Common.css]].
 * if [[Special:WantedPages]] is out of date but no jobs in queue, use [https://www.mediawiki.org/wiki/Manual:UpdateSpecialPages.php updateSpecialPages.php] maintenance script.</text>
-      <sha1>q1vp6tykbwv3qoy4i0vt9otie1cxm1h</sha1>
+      <sha1>5wz1ra74vv4qkd0zb6a3nsv3pgc25gi</sha1>
     </revision>
   </page>
   <page>
@@ -7870,20 +7889,21 @@ These are minor problems that can be worked around, or things that have to be do
     <ns>14</ns>
     <id>138</id>
     <revision>
-      <id>145</id>
-      <timestamp>2024-01-28T16:28:10Z</timestamp>
+      <id>37839</id>
+      <parentid>145</parentid>
+      <timestamp>2024-02-28T19:52:00Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>updated description</comment>
-      <origin>145</origin>
+      <minor/>
+      <origin>37839</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="183" sha1="i0zrfnmvxfnkonz4jf036t6ayclb7yr" xml:space="preserve">This is a parent category for subcategories that put historical people in groups that are not well defined enough to be represented as [[area]]s or [[unit]]s.
+      <text bytes="178" sha1="extb4k0mw66w831nhpg3hpuvtix1rit" xml:space="preserve">This is a parent category for subcategories that put historical people in groups that are not well defined enough to be represented as [[organization]]s.
 
 [[Category:Categories]]</text>
-      <sha1>i0zrfnmvxfnkonz4jf036t6ayclb7yr</sha1>
+      <sha1>extb4k0mw66w831nhpg3hpuvtix1rit</sha1>
     </revision>
   </page>
   <page>
