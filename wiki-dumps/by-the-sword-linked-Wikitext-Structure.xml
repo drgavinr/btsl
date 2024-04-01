@@ -323,16 +323,18 @@
     <ns>10</ns>
     <id>12</id>
     <revision>
-      <id>19</id>
-      <timestamp>2024-02-07T10:48:18Z</timestamp>
+      <id>38006</id>
+      <parentid>19</parentid>
+      <timestamp>2024-03-04T18:52:28Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <origin>19</origin>
+      <comment>changed 'Holdings' heading to 'Contents' to match collections</comment>
+      <origin>38006</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1001" sha1="ioy7w0hsh3brmncciccsk8mz1fc0tdo" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="1001" sha1="ofift0e2vqjdb6fhp74q20jh5ijxeaj" xml:space="preserve">&lt;noinclude&gt;
 This is the "GLAM" template.
 It is used by [[Form:GLAM]] and should not be used outside this form.
 
@@ -361,7 +363,7 @@ __TOC__
 | {{#arraymap:{{{Main subject|Unknown}}}|;|xx|[[Has main subject::xx]]{{#set:Relates to=xx}}|&lt;br/&gt;}}
 |}
 
-== Holdings ==
+== Contents ==
 
 {{#ask:
 [[Has parent::{{PAGENAME}}]]
@@ -372,7 +374,7 @@ __TOC__
 {{#if: {{{Sort by|}}} | {{DEFAULTSORT:{{{Sort by|}}} }} | }}
 [[Category:GLAMs]]
 &lt;/includeonly&gt;</text>
-      <sha1>ioy7w0hsh3brmncciccsk8mz1fc0tdo</sha1>
+      <sha1>ofift0e2vqjdb6fhp74q20jh5ijxeaj</sha1>
     </revision>
   </page>
   <page>
@@ -1567,16 +1569,19 @@ And replace 'PUT INTRODUCTORY TEXT HERE' with any introductory text that is need
     <ns>10</ns>
     <id>43</id>
     <revision>
-      <id>50</id>
-      <timestamp>2024-01-26T15:48:08Z</timestamp>
+      <id>38000</id>
+      <parentid>50</parentid>
+      <timestamp>2024-03-03T16:37:16Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <origin>50</origin>
+      <minor/>
+      <comment>default value for Type</comment>
+      <origin>38000</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6598" sha1="cebdn9czvu1zemg42s2xrn21gd0spze" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="6601" sha1="8oco5tfz6hz88n3tirr3b9or4eqp3oz" xml:space="preserve">&lt;noinclude&gt;
 This is the "Unit" template. It is used by [[Form:Unit]] and should not be used separately. Edit the page to see the template text.
 &lt;/noinclude&gt;&lt;includeonly&gt;__NOEDITSECTION__[[has description::{{{Description|No description entered.}}}]] ''{{{Disambiguation|&amp;#32;}}}''
 
@@ -1591,7 +1596,7 @@ __TOC__
 {| class="swordinfotable"
 |-
 ! [[Property:Is instance of|Instance of]]:
-| [[Is instance of::{{{Type|Unit}}}]]
+| [[Is instance of::{{{Type|Unknown}}}]]
 |-
 ! [[Property:Has Wikidata ID|Wikidata ID]]:
 | [[Has Wikidata ID::{{{Wikidata ID|}}}]]
@@ -1816,7 +1821,7 @@ Dates in ''italic'' are earliest or latest known dates. Non-italic dates are def
 {{#if: {{{Sort by|}}} | {{DEFAULTSORT:{{{Sort by|}}} }} | }}
 [[Category:Units]]
 &lt;/includeonly&gt;</text>
-      <sha1>cebdn9czvu1zemg42s2xrn21gd0spze</sha1>
+      <sha1>8oco5tfz6hz88n3tirr3b9or4eqp3oz</sha1>
     </revision>
   </page>
   <page>
@@ -2641,18 +2646,19 @@ Latitude comes first, and longitude second, separated by a comma. You can enter 
     <ns>10</ns>
     <id>63</id>
     <revision>
-      <id>35183</id>
-      <parentid>35164</parentid>
-      <timestamp>2024-02-25T19:00:21Z</timestamp>
+      <id>38001</id>
+      <parentid>35183</parentid>
+      <timestamp>2024-03-03T16:37:44Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <origin>35183</origin>
+      <comment>default value for Type</comment>
+      <origin>38001</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="9868" sha1="4mo48kw88py13mon4hq2dz8wj13sf20" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="9871" sha1="llb2u4nim40ihd2pqoqqv2qlm72lvi9" xml:space="preserve">&lt;noinclude&gt;
 This is the "Area" template. It is used by [[Form:Area]] and should not be used separately. Edit the page to see the template text.
 &lt;/noinclude&gt;&lt;includeonly&gt;__NOEDITSECTION__[[has description::{{{Description|No description entered.}}}]] ''{{{Disambiguation|&amp;#32;}}}''
 
@@ -2663,7 +2669,7 @@ __TOC__
 {| class="swordinfotable"
 |-
 ! [[Property:Is instance of|Instance of]]:
-| [[Is instance of::{{{Type|Area}}}]]
+| [[Is instance of::{{{Type|Unknown}}}]]
 |-
 ! [[Property:Has Wikidata ID|Wikidata ID]]:
 | [[Has Wikidata ID::{{{Wikidata ID|}}}]]
@@ -3012,7 +3018,7 @@ No rural deans were appointed in the 17th century.
 {{#if: {{{Sort by|}}} | {{DEFAULTSORT:{{{Sort by|}}} }} | }}
 [[Category:Areas]]
 &lt;/includeonly&gt;</text>
-      <sha1>4mo48kw88py13mon4hq2dz8wj13sf20</sha1>
+      <sha1>llb2u4nim40ihd2pqoqqv2qlm72lvi9</sha1>
     </revision>
   </page>
   <page>
@@ -5798,18 +5804,19 @@ We do not distinguish between signatures, initials, and marks because the bounda
     <ns>12</ns>
     <id>122</id>
     <revision>
-      <id>29213</id>
-      <parentid>129</parentid>
-      <timestamp>2024-02-17T10:59:30Z</timestamp>
+      <id>38035</id>
+      <parentid>29213</parentid>
+      <timestamp>2024-04-01T12:28:25Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* People */</comment>
-      <origin>29213</origin>
+      <minor/>
+      <comment>Text replacement - "Rupert, Prince" to "Prince Rupert"</comment>
+      <origin>38035</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="20178" sha1="abiuwb7qm7jpz6h5o683kfzuekeh96d" xml:space="preserve">A wiki page name is an identifier for a page within a wiki. This page may be about a named entity (person, place, organization) but strictly speaking, the page name is an identifier for a resource about that entity, not for the entity itself. Where possible, entities are more rigorously identified by linking to external identifiers.
+      <text bytes="20177" sha1="s674uavdz5o0xhckm4ai5rf8cfa9bbb" xml:space="preserve">A wiki page name is an identifier for a page within a wiki. This page may be about a named entity (person, place, organization) but strictly speaking, the page name is an identifier for a resource about that entity, not for the entity itself. Where possible, entities are more rigorously identified by linking to external identifiers.
 
 Page names must be '''unique''' and need to get a balance between '''short''' and '''informative'''. This means that the page name should contain enough information for human readers to be able to find what they're looking for, but no more information than is necessary for that.
 
@@ -5847,7 +5854,7 @@ People can be [[Form:Agent|Agents]] (if they were alive during the British Civil
 
 Surnames should usually come first, followed by a comma, then by forenames and/or initials. The main exception to this rule is for royalty who are commonly known by forenames and either don't have surnames or who are not commonly known by their surname. In this case, the forename comes first, and can be followed by a comma, followed by a royal title. Years of birth and death are not usually needed. For example:
 
-* [[Rupert, Prince]]
+* [[Prince Rupert]]
 * [[Charles I]]
 
 For people whose surname comes first, the qualifiers 'junior' or 'senior' may be used if necessary for disambiguation. These come after the forenames, separated by a space, not a comma:
@@ -6169,7 +6176,7 @@ The name of a disambiguation page should be the ambiguous term with nothing afte
 Each disambiguation page should also have a redirect pointing to it with ' (disambiguation)' added after the page name.
 
 [[Category:Help pages]]</text>
-      <sha1>abiuwb7qm7jpz6h5o683kfzuekeh96d</sha1>
+      <sha1>s674uavdz5o0xhckm4ai5rf8cfa9bbb</sha1>
     </revision>
   </page>
   <page>
@@ -7639,22 +7646,21 @@ No other information about you will be stored or published except what you choos
     <ns>8</ns>
     <id>133</id>
     <revision>
-      <id>29194</id>
-      <parentid>29192</parentid>
-      <timestamp>2024-02-15T19:47:34Z</timestamp>
+      <id>37959</id>
+      <parentid>29194</parentid>
+      <timestamp>2024-02-29T19:10:29Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <origin>29194</origin>
+      <comment>server move and software upgrade don't seem to have caused any problems</comment>
+      <origin>37959</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="471" sha1="n7ycfh8d5iy22c77s1yn59x4z41ftgn" xml:space="preserve">This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.
-
-'''Server move, software upgrade and content reimport now done. There may be some minor problems that have not yet been found and fixed.'''
+      <text bytes="330" sha1="cf0rzv7lpwhhfyke3pdqxjct418i43w" xml:space="preserve">This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.
 
 Outgoing links to the British Library, Ordnance Survey, and BCW Regimental wiki are broken because of temporary problems with those sites. See [[Project:Known issues]] for more information.</text>
-      <sha1>n7ycfh8d5iy22c77s1yn59x4z41ftgn</sha1>
+      <sha1>cf0rzv7lpwhhfyke3pdqxjct418i43w</sha1>
     </revision>
   </page>
   <page>
