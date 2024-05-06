@@ -5804,19 +5804,19 @@ We do not distinguish between signatures, initials, and marks because the bounda
     <ns>12</ns>
     <id>122</id>
     <revision>
-      <id>38035</id>
-      <parentid>29213</parentid>
-      <timestamp>2024-04-01T12:28:25Z</timestamp>
+      <id>38545</id>
+      <parentid>38544</parentid>
+      <timestamp>2024-05-06T10:17:01Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <comment>Text replacement - "Rupert, Prince" to "Prince Rupert"</comment>
-      <origin>38035</origin>
+      <comment>/* Regiments, troops and companies */ fixed broken links</comment>
+      <origin>38545</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="20177" sha1="s674uavdz5o0xhckm4ai5rf8cfa9bbb" xml:space="preserve">A wiki page name is an identifier for a page within a wiki. This page may be about a named entity (person, place, organization) but strictly speaking, the page name is an identifier for a resource about that entity, not for the entity itself. Where possible, entities are more rigorously identified by linking to external identifiers.
+      <text bytes="19304" sha1="04idw2cze7n4befmbru35l7w78ul0v5" xml:space="preserve">A wiki page name is an identifier for a page within a wiki. This page may be about a named entity (person, place, organization) but strictly speaking, the page name is an identifier for a resource about that entity, not for the entity itself. Where possible, entities are more rigorously identified by linking to external identifiers.
 
 Page names must be '''unique''' and need to get a balance between '''short''' and '''informative'''. This means that the page name should contain enough information for human readers to be able to find what they're looking for, but no more information than is necessary for that.
 
@@ -5930,6 +5930,8 @@ Living transgendered people's deadnames '''must not''' be mentioned anywhere on 
 
 == Military units ==
 
+=== Armies ===
+
 Armies are capitalized and should have as short names as possible. Allegiance can be added after a comma if needed for disambiguation, but can often be left out. Armies can be known by a commander's name, a place name, or both. Sometimes years of existence are needed for disambiguation. Examples:
 
 * [[Essex's Army]]
@@ -5940,26 +5942,35 @@ Armies are capitalized and should have as short names as possible. Allegiance ca
 * [[Army of Covenant (1643-47)]]
 * [[Newcastle's Army]]
 
-Units such as regiments, troops and companies were mostly known by the commanding officer's name and did not have official names of their own. In these cases, the page name should have two parts separated by '-'. The first part should be the names of one or more commanding officers. The second part should be the type of unit and any other information needed for disambiguation, such as the army it was in, the side it was on, or the years when it existed.
+=== Regiments, troops and companies ===
 
-The first part should put a surname first. If there was only one commanding officer, the forename can be used in the same way as pages for people, but sometimes it can be omitted if the unit or colonel is very well known or there were no similarly named units. If there were multiple commanding officers, multiple surnames can be used, separated by '\' (we no longer use '/' as it can cause confusion when creating subpages in the Events and Locations namespaces). Commanders' names don't have to be in chronological order. It's better to start with the name that seems to be best known or that was used for longest, but this is flexible as cases will vary. Not every commander has to be included in the page name, especially if they only served for a short time. Extra disambiguation information such as ranks, titles or senior/junior can be added if needed.
+Units such as regiments, troops and companies were mostly known by the commanding officer's name and did not have official names of their own. Page names are usually in the form:
 
-The second part should start with a unit type, such as 'horse troop' or 'foot regiment'. This is usually in lower case because it's a description, not a proper noun. If the army, allegiance or other parent unit are needed for disambiguation, the can go next after a comma. Army names should be capitalized but regiment names shouldn't. New Model Army units will probably always have 'New Model Army' in the page name, and will be treated as separate units from their predecessors. Any other disambiguation information, such as years active, can go in brackets.
+* Surname's Arm Level
+
+With the following qualifiers:
+
+* if there was more than one commanding officer, surnames are separated by '\' (we no longer use '/' as it can cause confusion when creating subpages in the Events and Locations namespaces).
+* multiple commanders do not have to be in chronological order. It can be helpful to put the most well-known or longest serving first. In these cases, there should be a redirect for each commander with only that commander's name.
+* information needed to disambiguate commanding officers with the same surname can go in brackets after the unit name. For example, forenames, ranks, other titles such as Sir or junior.
+* the name of an army can be added after a comma if the unit served wholly or mainly in one army. 'New Model Army' is abbreviated to '''NMA''' but other armies are usually not abbreviated.
+* further disambiguation information, such as allegiance or dates of existence can be added in brackets at the end of the page name.
 
 Examples:
 
-* [[Cromwell\Vermuyden\Disbrowe - horse regiment, New Model Army]]
-* Balfour, William senior, Sir - horse troop, Essex's Army
-* Balfour, William junior, Major - horse troop, Essex's Army
-* Cromwell\St John\Cooper - horse troop
-* Cromwell, Oliver junior - horse troop, Eastern Association
-* Long, Walter - horse troop (1642)
-* Long, Walter - horse troop (1643)
+* [[Fleetwood's Horse Regiment, NMA]]
+* [[Middleton\Feilding's Horse Regiment, Essex's Army]]
+* [[Cromwell\Vermuyden\Disbrowe's Horse Regiment, NMA]]
+* [[Holles's Foot Regiment, Essex's Army]]
+* Balfour's Horse Troop (Sir William senior), Essex's Army
+* Balfour's Horse Troop (Maj William junior), Essex's Army
 
-There should be a redirect for every commanding officer. These should start with surname then forename like person pages. Names of other commanding officers should be added in brackets only if they are absolutely necessary for disambiguation. For example, these redirect to [[Cromwell\Vermuyden\Disbrowe - horse regiment, New Model Army]]:
+=== Garrisons ===
 
-* [[Vermuyden, Bartholomew - horse regiment, New Model Army]]
-* [[Disbrowe, John - horse regiment, New Model Army]]
+Page names for garrisons usually start with the place name (not usually qualified by county), with allegiance or other disambiguation information, such as dates of existence, in brackets.
+
+* 'parliamentarian' is abbreviated to '''P'''
+* 'royalist' is abbreviated to '''R'''
 
 == Households ==
 
@@ -6176,7 +6187,7 @@ The name of a disambiguation page should be the ambiguous term with nothing afte
 Each disambiguation page should also have a redirect pointing to it with ' (disambiguation)' added after the page name.
 
 [[Category:Help pages]]</text>
-      <sha1>s674uavdz5o0xhckm4ai5rf8cfa9bbb</sha1>
+      <sha1>04idw2cze7n4befmbru35l7w78ul0v5</sha1>
     </revision>
   </page>
   <page>
@@ -6876,18 +6887,19 @@ Line breaks in the original text are not usually represented here. Optionally yo
     <ns>12</ns>
     <id>129</id>
     <revision>
-      <id>35165</id>
-      <parentid>136</parentid>
-      <timestamp>2024-02-23T14:51:18Z</timestamp>
+      <id>38510</id>
+      <parentid>38461</parentid>
+      <timestamp>2024-05-06T09:57:27Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Personnel subobject */ new property 'Ordinal'</comment>
-      <origin>35165</origin>
+      <minor/>
+      <comment>Text replacement - "Holles, Denzil - foot regiment" to "Holles's Foot Regiment, Essex's Army"</comment>
+      <origin>38510</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="64814" sha1="dcc3iynevetv1qpffqp0c668tgs7nwl" xml:space="preserve">(This page needs updating when current changes to forms, templates and properties are complete.)
+      <text bytes="64798" sha1="fn4ba10yu2dnlv0jrceg3068mk4dv38" xml:space="preserve">(This page needs updating when current changes to forms, templates and properties are complete.)
 
 This page gives an overview of this site's semantic data structures. See also [[Help:Create a page]] for a brief guide to the basic entity types and their associated forms.
 
@@ -6986,7 +6998,7 @@ Start and end dates are not represented.
 
 === Unit ===
 
-Example: [[Holles, Denzil - foot regiment]].
+Example: [[Holles's Foot Regiment, Essex's Army]].
 
 Uses [[Form:Unit]] and [[Template:Unit]].
 
@@ -7000,7 +7012,7 @@ Represents organizations that occupied a specific location and could move (even 
 
 Properties:
 
-* [[Property:Is instance of|Is instance of]] (single value): existing values are taken from [[:Category:Unit types]] and more can be added. No longer allows multiple values. In the rare cases where a unit changed type, there should be a separate page to represent each type. For example, Okey's regiment of the New Model Army changed from [[Okey - dragoon regiment, New Model Army|dragoons]] to [[Okey - horse regiment, New Model Army|horse]] in 1650.
+* [[Property:Is instance of|Is instance of]] (single value): existing values are taken from [[:Category:Unit types]] and more can be added. No longer allows multiple values. In the rare cases where a unit changed type, there should be a separate page to represent each type. For example, Okey's regiment of the New Model Army changed from [[Okey's Dragoon Regiment, NMA|dragoons]] to [[Okey's Horse Regiment, NMA|horse]] in 1650.
 * start date can use either of the following properties, depending on whether it is known precisely:
 ** [[Property:Has definite start date|Has definite start date]] (type: date; single value): if the unit was definitely created on this day.
 ** [[Property:Has earliest known date|Has earliest known date]] (type: date; single value): if the unit is known to have been created on or before this day.
@@ -7553,7 +7565,7 @@ In the following list, the values assigned to the second-level properties (which
 ** [[Property:Has definite end date|Has definite end date]]
 
 [[Category:Help pages]]</text>
-      <sha1>dcc3iynevetv1qpffqp0c668tgs7nwl</sha1>
+      <sha1>fn4ba10yu2dnlv0jrceg3068mk4dv38</sha1>
     </revision>
   </page>
   <page>
