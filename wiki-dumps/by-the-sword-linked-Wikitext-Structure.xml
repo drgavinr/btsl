@@ -927,17 +927,17 @@ For people named as booksellers on the title pages of 17th-century books, use [[
     <ns>106</ns>
     <id>30</id>
     <revision>
-      <id>37</id>
-      <timestamp>2024-02-08T09:56:54Z</timestamp>
+      <id>38637</id>
+      <parentid>37</parentid>
+      <timestamp>2024-11-25T14:21:48Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <origin>37</origin>
+      <origin>38637</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="5308" sha1="5jnm7xls9b8zma6b2tsx2oo5boik5sz" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="5290" sha1="e42lpgzwlzumoh5srdxk1iq5d4n8v7v" xml:space="preserve">&lt;noinclude&gt;
 This is the "Manuscript text" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -1039,7 +1039,7 @@ Enter the date when the original will was made in '''Earliest date of existence'
 | {{{field|Created by|list|delimiter=;|values from concept=Autocomplete creators|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
 |-
 ! Signed by: 
-| {{{field|Signed by|list|delimiter=;|values from concept=Autocomplete human agents|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
+| {{{field|Signed by|list|delimiter=;|values from category=Agents|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
 |-
 ! Addressed to: 
 | {{{field|Addressed to|list|delimiter=;|values from concept=Autocomplete creators|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
@@ -1085,7 +1085,7 @@ And replace 'PUT INTRODUCTORY TEXT HERE' with any introductory text that is need
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>5jnm7xls9b8zma6b2tsx2oo5boik5sz</sha1>
+      <sha1>e42lpgzwlzumoh5srdxk1iq5d4n8v7v</sha1>
     </revision>
   </page>
   <page>
@@ -1569,19 +1569,18 @@ And replace 'PUT INTRODUCTORY TEXT HERE' with any introductory text that is need
     <ns>10</ns>
     <id>43</id>
     <revision>
-      <id>38000</id>
-      <parentid>50</parentid>
-      <timestamp>2024-03-03T16:37:16Z</timestamp>
+      <id>38940</id>
+      <parentid>38000</parentid>
+      <timestamp>2024-11-30T14:31:04Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <comment>default value for Type</comment>
-      <origin>38000</origin>
+      <origin>38940</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6601" sha1="8oco5tfz6hz88n3tirr3b9or4eqp3oz" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="6600" sha1="gti8yzwc323k5rgcaq3x49vqomd9lhe" xml:space="preserve">&lt;noinclude&gt;
 This is the "Unit" template. It is used by [[Form:Unit]] and should not be used separately. Edit the page to see the template text.
 &lt;/noinclude&gt;&lt;includeonly&gt;__NOEDITSECTION__[[has description::{{{Description|No description entered.}}}]] ''{{{Disambiguation|&amp;#32;}}}''
 
@@ -1617,7 +1616,7 @@ __TOC__
 | [[Has clothing::{{{Clothing|Unknown}}}]]{{#if: {{{Clothing ref|}}} | {{#tag: ref | {{{Clothing ref|}}} }} |&amp;nbsp;&lt;sup&gt;Needs source&lt;/sup&gt; }}
 |}
 
-{{#switch: {{{Show events|Yes}}}
+{{#switch: {{{Show events|No}}}
 | Yes = ==Events==
 
 {{#ifexist:Events:{{PAGENAME}}
@@ -1821,7 +1820,7 @@ Dates in ''italic'' are earliest or latest known dates. Non-italic dates are def
 {{#if: {{{Sort by|}}} | {{DEFAULTSORT:{{{Sort by|}}} }} | }}
 [[Category:Units]]
 &lt;/includeonly&gt;</text>
-      <sha1>8oco5tfz6hz88n3tirr3b9or4eqp3oz</sha1>
+      <sha1>gti8yzwc323k5rgcaq3x49vqomd9lhe</sha1>
     </revision>
   </page>
   <page>
@@ -1849,18 +1848,17 @@ Dates in ''italic'' are earliest or latest known dates. Non-italic dates are def
     <ns>106</ns>
     <id>45</id>
     <revision>
-      <id>52</id>
-      <timestamp>2024-01-26T19:32:35Z</timestamp>
+      <id>38631</id>
+      <parentid>52</parentid>
+      <timestamp>2024-11-25T13:24:38Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>Text replacement - "values from concept=P" to "values from concept=Autocomplete p"</comment>
-      <origin>52</origin>
+      <origin>38631</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6527" sha1="qeprc4pf6ld2169ctby9kem15fn0d9k" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="6554" sha1="6jowg0l1z4a3bum94mazubrmjiqtw4z" xml:space="preserve">&lt;noinclude&gt;
 This is the "Unit" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -1883,7 +1881,7 @@ Existing pages that use this form are listed in [[:Category:Units]].
 | {{{field|Disambiguation|input type=textarea|cols=45}}}
 |-
 ! Could be same as: 
-| {{{field|Possibly same as|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
+| {{{field|Possibly same as|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions|values from category=Units}}}
 |-
 ! Type: 
 | {{{field|Type|input type=combobox|values from category=Unit types}}}
@@ -2021,7 +2019,7 @@ You can use the text area below to create manual links to sources. These can be:
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>qeprc4pf6ld2169ctby9kem15fn0d9k</sha1>
+      <sha1>6jowg0l1z4a3bum94mazubrmjiqtw4z</sha1>
     </revision>
   </page>
   <page>
@@ -4883,22 +4881,23 @@ You can use this to add any extra information about this thesis, but please don'
     <ns>102</ns>
     <id>106</id>
     <revision>
-      <id>113</id>
-      <timestamp>2024-01-01T10:57:08Z</timestamp>
+      <id>38615</id>
+      <parentid>113</parentid>
+      <timestamp>2024-07-01T10:18:14Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>links broken</comment>
-      <origin>113</origin>
+      <comment>interim ESTC search link</comment>
+      <origin>38615</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="507" sha1="cwbec1x11nxsedkyydworw6vd92c9j7" xml:space="preserve">(Links created by this property are currently broken because of the cyber attack on the British Library in October 2023.)
+      <text bytes="711" sha1="o8akv4hc46m8jdwyd4p2lu7kx4hipsj" xml:space="preserve">(Links created by this property are currently broken because of the cyber attack on the British Library in October 2023. You can now search an interim version of the ESTC at [https://estc.printprobability.org/ Print &amp; Probability] but it does not have permalinks to individual records that are compatible with this property.)
 
 This is a property of type [[Has type::External identifier]]. It corresponds to a citation number at the [http://ESTC.bl.uk/ English Short Title Catalogue]. Only the value of ESTC Citation No. ('''not''' ESTC, System No.) should be entered. It will be automatically formatted as a URI in this form (where $1 is the value you entered):
 
 [[External formatter uri::http://ESTC.bl.uk/$1]]</text>
-      <sha1>cwbec1x11nxsedkyydworw6vd92c9j7</sha1>
+      <sha1>o8akv4hc46m8jdwyd4p2lu7kx4hipsj</sha1>
     </revision>
   </page>
   <page>
@@ -5190,17 +5189,17 @@ Existing pages that use this form are listed in [[:Category:Articles]].
     <ns>106</ns>
     <id>111</id>
     <revision>
-      <id>118</id>
-      <timestamp>2024-02-08T09:22:08Z</timestamp>
+      <id>38638</id>
+      <parentid>118</parentid>
+      <timestamp>2024-11-25T14:22:22Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>removed date signed</comment>
-      <origin>118</origin>
+      <origin>38638</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3892" sha1="kfbdt0gs2fjj5mxbtbclwiu0logzwd5" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="3874" sha1="c7gg5upmvewpbhus1y33n1cf2sk3pwa" xml:space="preserve">&lt;noinclude&gt;
 This is the "Lost manuscript text" form. It will generate an autonumbered page name, so you can't specify a page name when you create a page. Click the link below to create a new page:
 
 {{#formlink:form=Lost manuscript text|link text=Create a new lost manuscript text|link type=}}
@@ -5263,7 +5262,7 @@ Existing pages that use this form are listed in [[:Category:Lost manuscript text
 | {{{field|Created by|list|delimiter=;|values from concept=Autocomplete creators|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
 |-
 ! Signed by: 
-| {{{field|Signed by|list|delimiter=;|values from concept=Autocomplete human agents|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
+| {{{field|Signed by|list|delimiter=;|values from category=Agents|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
 |-
 ! Addressed to: 
 | {{{field|Addressed to|list|delimiter=;|values from concept=Autocomplete creators|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
@@ -5309,7 +5308,7 @@ And replace 'PUT INTRODUCTORY TEXT HERE' with any introductory text that is need
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>kfbdt0gs2fjj5mxbtbclwiu0logzwd5</sha1>
+      <sha1>c7gg5upmvewpbhus1y33n1cf2sk3pwa</sha1>
     </revision>
   </page>
   <page>
@@ -5804,19 +5803,18 @@ We do not distinguish between signatures, initials, and marks because the bounda
     <ns>12</ns>
     <id>122</id>
     <revision>
-      <id>38545</id>
-      <parentid>38544</parentid>
-      <timestamp>2024-05-06T10:17:01Z</timestamp>
+      <id>38660</id>
+      <parentid>38545</parentid>
+      <timestamp>2024-11-25T16:57:16Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>/* Regiments, troops and companies */ fixed broken links</comment>
-      <origin>38545</origin>
+      <comment>/* People */ added section for Baronets</comment>
+      <origin>38660</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="19304" sha1="04idw2cze7n4befmbru35l7w78ul0v5" xml:space="preserve">A wiki page name is an identifier for a page within a wiki. This page may be about a named entity (person, place, organization) but strictly speaking, the page name is an identifier for a resource about that entity, not for the entity itself. Where possible, entities are more rigorously identified by linking to external identifiers.
+      <text bytes="19762" sha1="1pqj9x471bvpk46m0juaklbnz9x2u5n" xml:space="preserve">A wiki page name is an identifier for a page within a wiki. This page may be about a named entity (person, place, organization) but strictly speaking, the page name is an identifier for a resource about that entity, not for the entity itself. Where possible, entities are more rigorously identified by linking to external identifiers.
 
 Page names must be '''unique''' and need to get a balance between '''short''' and '''informative'''. This means that the page name should contain enough information for human readers to be able to find what they're looking for, but no more information than is necessary for that.
 
@@ -5905,6 +5903,20 @@ There should be a redirect for every peer with the title first and the name in b
 * [[Essex, Earl of, 3rd (Robert Devereux)]]
 
 There can also be redirects for previous or subsidiary titles but only the highest/last main title should be used in an actual page name.
+
+=== Baronets ===
+
+If the highest title a person held was [[Baronet]], use surname, forename, and 'Sir', followed by the number of the baronetcy in brackets:
+
+* [[Courtenay, William, Sir (1st Baronet)]]
+
+Extra information can be placed afterwards in brackets. If the person was an MP this should always be added:
+
+* [[Lucy, Thomas, Sir (1st Baronet, MP)]]
+
+Further information can be added if needed:
+
+* [[Brereton, William, Sir (1st Baronet, MP, general)]]
 
 === Married surnames ===
 
@@ -6187,7 +6199,7 @@ The name of a disambiguation page should be the ambiguous term with nothing afte
 Each disambiguation page should also have a redirect pointing to it with ' (disambiguation)' added after the page name.
 
 [[Category:Help pages]]</text>
-      <sha1>04idw2cze7n4befmbru35l7w78ul0v5</sha1>
+      <sha1>1pqj9x471bvpk46m0juaklbnz9x2u5n</sha1>
     </revision>
   </page>
   <page>
@@ -6195,17 +6207,18 @@ Each disambiguation page should also have a redirect pointing to it with ' (disa
     <ns>12</ns>
     <id>123</id>
     <revision>
-      <id>130</id>
-      <timestamp>2020-05-19T10:32:50Z</timestamp>
+      <id>38610</id>
+      <parentid>38609</parentid>
+      <timestamp>2024-06-16T18:59:52Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Entering dates in transcripts and free text */ changed XML tag to wiki template</comment>
-      <origin>130</origin>
+      <comment>/* Years only */ author death year no longer recorded</comment>
+      <origin>38610</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="13692" sha1="mvwcwi9cxv2r5tuxgzc5acxlljk6rm0" xml:space="preserve">This page is about how to enter dates in forms, and how this site deals with the different calendars used in the past.
+      <text bytes="13383" sha1="o7qdltqma2x26ay859jsmd3on68jpq1" xml:space="preserve">This page is about how to enter dates in forms, and how this site deals with the different calendars used in the past.
 
 For quick reference, values for most date fields in forms should be entered like this:
 
@@ -6228,8 +6241,6 @@ Great Britain and Ireland changed from the Julian to the Gregorian calendar in 1
 In the 17th century, the difference between the two calendars was 10 days. For example, 10 October Julian was 20 October Gregorian. The difference increased to 11 days in 1700 and is now 13 days. But note that the transition from Julian to Gregorian only changed the number of the day, not the day of the week, which is the same in both calendars. For example, the battle of Edgehill was fought on 23 October 1642 Julian, which was 2 November Gregorian, but it was a Sunday in both calendars.
 
 Letters sent from a place that used one calendar to a place that used the other sometimes have double dates such as 10/20 October. This isn't always the case but you can tell which calendar was used if it also gives the day of the week. For example, Sunday 23 October 1642 must be Julian because 23 October 1642 Gregorian was a Thursday.
-
-[http://people.albion.edu/imacinnes/calendar//Welcome.html Ian's English Calendar] can calculate the day of the week. You can also use the date tag on this site to automatically convert between calendars and find the day of the week (see below for more details).
 
 For more information about calendars, see these Wikipedia pages:
 
@@ -6298,13 +6309,12 @@ You must always specify a year. Dates where the month and day are known but not 
 
 === Multiple dates ===
 
-Most date fields can only take one date. The only exception is the date of a combat event. This can take multiple dates separated by a semi-colon if the event went on for more than one day.
+Date fields can only take one date each. Combat events that lasted for more than one day (such as sieges) have an option to enter start date and end date in separate boxes.
 
 === Years only ===
 
 The only exceptions to this format are:
 
-* an author's year of death
 * year of publication of a book or article
 * year of completion of a thesis
 
@@ -6392,7 +6402,7 @@ You can also change the formatting of dates in query results in other ways, and 
 Note that if your query uses a date format that displays the day of the week, Julian dates will have the wrong day because of a bug in Semantic MediaWiki. This does not affect the way that dates are displayed on the pages where they were entered, where the day of the week shown will be correct for both the Julian and Gregorian calendars.
 
 [[Category:Help pages]]</text>
-      <sha1>mvwcwi9cxv2r5tuxgzc5acxlljk6rm0</sha1>
+      <sha1>o7qdltqma2x26ay859jsmd3on68jpq1</sha1>
     </revision>
   </page>
   <page>
@@ -7658,21 +7668,21 @@ No other information about you will be stored or published except what you choos
     <ns>8</ns>
     <id>133</id>
     <revision>
-      <id>37959</id>
-      <parentid>29194</parentid>
-      <timestamp>2024-02-29T19:10:29Z</timestamp>
+      <id>39869</id>
+      <parentid>38987</parentid>
+      <timestamp>2024-12-26T10:46:50Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>server move and software upgrade don't seem to have caused any problems</comment>
-      <origin>37959</origin>
+      <comment>Your Archives links fixed</comment>
+      <origin>39869</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="330" sha1="cf0rzv7lpwhhfyke3pdqxjct418i43w" xml:space="preserve">This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.
+      <text bytes="320" sha1="ptso9bqkvaexhqvbc58gdwbvphjgwl7" xml:space="preserve">This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.
 
-Outgoing links to the British Library, Ordnance Survey, and BCW Regimental wiki are broken because of temporary problems with those sites. See [[Project:Known issues]] for more information.</text>
-      <sha1>cf0rzv7lpwhhfyke3pdqxjct418i43w</sha1>
+Outgoing links to the British Library, Ordnance Survey, and BCW Regimental wiki are broken because of problems with those sites. See [[Project:Known issues]] for more information.</text>
+      <sha1>ptso9bqkvaexhqvbc58gdwbvphjgwl7</sha1>
     </revision>
   </page>
   <page>
@@ -7817,23 +7827,25 @@ It looks like query results at [[Special:Ask]] will never be cached by anything.
     <ns>4</ns>
     <id>137</id>
     <revision>
-      <id>37799</id>
-      <parentid>37798</parentid>
-      <timestamp>2024-02-26T20:19:59Z</timestamp>
+      <id>39868</id>
+      <parentid>38986</parentid>
+      <timestamp>2024-12-26T10:46:20Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>/* Quirks */ arranged into sub-headings</comment>
-      <origin>37799</origin>
+      <comment>Your Archives links fixed</comment>
+      <origin>39868</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6769" sha1="5wz1ra74vv4qkd0zb6a3nsv3pgc25gi" xml:space="preserve">__TOC__
+      <text bytes="7381" sha1="gjgb95ra5zw9dh8zv3sx7cjd5kykbf6" xml:space="preserve">__TOC__
 
 == Outstanding issues ==
 
 These problems have been found during testing and not yet solved:
 
+* November 2024:
+** some autocomplete concepts are not giving forms the full range of expected values, but the results on the concept page are complete. Upgrading PageForms and enabling cache for autocomplete values have not solved the problem. The biggest concepts are broken, but some of the broken concepts have relatively few results and some bigger ones are working.
 * February 2024:
 ** forms can't get autocomplete values from Main namespace because it causes a CPU spike and stops the form from loading. To stop this, 'values from namespace=Main' has been removed from forms, but this limits the autocomplete values available.
 ** some inline query results are sorting in an unexpected order.
@@ -7850,6 +7862,8 @@ These problems have been found during testing and not yet solved:
 
 == Resolved issues ==
 
+* December 2024:
+** links to Your Archives have been updated to point directly to archived pages at the Government Web Archive because the redirects from old URLs at &lt;nowiki&gt;http://yourarchives.nationalarchives.gov.uk&lt;/nowiki&gt; were broken.
 * February 2024:
 ** Software upgrade has resolved many issues.
 ** Most entries moved to Quirks below or deleted because no longer relevant.
@@ -7899,7 +7913,7 @@ These are minor problems that can be worked around, or things that have to be do
 * if Litespeed cache needs to be tried again, the version at Mediawiki extensions website is out of date. Get the latest version from [https://github.com/litespeedtech/lscache_mediawiki/ Github].
 * mod_security doesn't allow inline CSS. To get custom styling, add a class to a div or span tag and define that class in [[Mediawiki:Common.css]].
 * if [[Special:WantedPages]] is out of date but no jobs in queue, use [https://www.mediawiki.org/wiki/Manual:UpdateSpecialPages.php updateSpecialPages.php] maintenance script.</text>
-      <sha1>5wz1ra74vv4qkd0zb6a3nsv3pgc25gi</sha1>
+      <sha1>gjgb95ra5zw9dh8zv3sx7cjd5kykbf6</sha1>
     </revision>
   </page>
   <page>
@@ -11288,18 +11302,17 @@ The information below only applies to original printed copies of this book and e
     <ns>106</ns>
     <id>241</id>
     <revision>
-      <id>248</id>
-      <timestamp>2024-02-05T10:44:33Z</timestamp>
+      <id>38639</id>
+      <parentid>248</parentid>
+      <timestamp>2024-11-25T14:22:47Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>Text replacement - "|values from namespace=Main" to ""</comment>
-      <origin>248</origin>
+      <origin>38639</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="3522" sha1="jh2yl9o7ltlfb481l8c3h880yrrojm4" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="3504" sha1="k622aqkxkm15q0tr7exak55ezkch8ar" xml:space="preserve">&lt;noinclude&gt;
 This is the "Early edition" form. It used [[Template:Early edition]].
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -11340,7 +11353,7 @@ Creators can include authors, editors, translators, printers, and publishers.
 | {{{field|First pub|input type=text|size=4|maxlength=4|placeholder=YYYY}}}
 |-
 ! To be sold by: 
-| {{{field|Bookseller|values from concept=Autocomplete human agents|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
+| {{{field|Bookseller|values from category=Agents|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
 |-
 ! To be sold at: 
 | {{{field|Available at|values from concept=Autocomplete to be sold at|list|delimiter=;|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
@@ -11404,7 +11417,7 @@ You can use this text area to manually create links to online versions of this e
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>jh2yl9o7ltlfb481l8c3h880yrrojm4</sha1>
+      <sha1>k622aqkxkm15q0tr7exak55ezkch8ar</sha1>
     </revision>
   </page>
   <page>
@@ -12138,83 +12151,29 @@ This concept provides a list of autocomplete values for [[Property:Has organizat
     </revision>
   </page>
   <page>
-    <title>Concept:Autocomplete human agents</title>
-    <ns>108</ns>
-    <id>263</id>
-    <revision>
-      <id>270</id>
-      <timestamp>2024-01-28T20:02:43Z</timestamp>
-      <contributor>
-        <username>Gavin</username>
-        <id>1</id>
-      </contributor>
-      <minor/>
-      <comment>Gavin moved page [[Concept:Autocomplete signatories]] to [[Concept:Autocomplete human agents]] without leaving a redirect: now also used for booksellers</comment>
-      <origin>270</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="302" sha1="q6d4bbp6jcruj5bzb117mby2eenbnfd" xml:space="preserve">{{#concept:
- [[Is instance of::Human]] [[Category:Agents]] OR [[None]]
- |Human agents.
-}}
-
-This concept provides a list of autocomplete values for [[Property:Signed by]] in all forms for manuscript texts, and for [[Property:To be sold by]] in [[Form:Early edition]].
-
-[[Category:Autocomplete concepts]]</text>
-      <sha1>q6d4bbp6jcruj5bzb117mby2eenbnfd</sha1>
-    </revision>
-  </page>
-  <page>
-    <title>Concept:Autocomplete type with personnel</title>
-    <ns>108</ns>
-    <id>264</id>
-    <revision>
-      <id>271</id>
-      <timestamp>2024-01-26T19:29:30Z</timestamp>
-      <contributor>
-        <username>Gavin</username>
-        <id>1</id>
-      </contributor>
-      <minor/>
-      <comment>Gavin moved page [[Concept:Type with personnel]] to [[Concept:Autocomplete type with personnel]] without leaving a redirect</comment>
-      <origin>271</origin>
-      <model>wikitext</model>
-      <format>text/x-wiki</format>
-      <text bytes="262" sha1="3kixxtxk6tghpskkwger3hbgoago7nj" xml:space="preserve">{{#concept:
- [[Category:Address types||Area types||Unit types]]
- |Type definitions for addresses, areas and units.
-}}
-
-This concept provides a list of autocomplete values for [[Property:Is role in]] in [[Form:Personnel role]].
-
-[[Category:Autocomplete concepts]]</text>
-      <sha1>3kixxtxk6tghpskkwger3hbgoago7nj</sha1>
-    </revision>
-  </page>
-  <page>
     <title>Concept:Autocomplete to be sold at</title>
     <ns>108</ns>
     <id>265</id>
     <revision>
-      <id>272</id>
-      <timestamp>2024-01-28T20:19:52Z</timestamp>
+      <id>38641</id>
+      <parentid>272</parentid>
+      <timestamp>2024-11-25T15:01:09Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "{{#concept:  [[Is instance of::Building]] OR [[None]]  |Buildings or None. }}  This concept provides a list of autocomplete values for [[Property:To be sold at]] in Form:Ear..."</comment>
-      <origin>272</origin>
+      <origin>38641</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="224" sha1="qmr5wqya96q4hnai8nnade10lblxoe6" xml:space="preserve">{{#concept:
- [[Is instance of::Building]] OR [[None]]
+      <text bytes="252" sha1="hq0fj01tcl52tz6062r4slc2i6nig6r" xml:space="preserve">{{#concept:
+ [[Is instance of::Building]] OR [[Category:Special property values]]
  |Buildings or None.
 }}
 
 This concept provides a list of autocomplete values for [[Property:To be sold at]] in [[Form:Early edition]].
 
 [[Category:Autocomplete concepts]]</text>
-      <sha1>qmr5wqya96q4hnai8nnade10lblxoe6</sha1>
+      <sha1>hq0fj01tcl52tz6062r4slc2i6nig6r</sha1>
     </revision>
   </page>
   <page>
@@ -12624,25 +12583,24 @@ This concept provides a list of autocomplete values used by forms for sources to
     <ns>108</ns>
     <id>279</id>
     <revision>
-      <id>286</id>
-      <timestamp>2024-02-07T13:38:58Z</timestamp>
+      <id>38640</id>
+      <parentid>286</parentid>
+      <timestamp>2024-11-25T14:59:31Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "{{#concept:  [[None]] OR [[Category:Events]]  |Events or None. }}  This concept provides a list of autocomplete values for [[Property:Has parent]] in [[Form:Event]].  Catego..."</comment>
-      <origin>286</origin>
+      <origin>38640</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="201" sha1="p5m7xfjnknn0bqh4ffwo5kb2wzl1k4y" xml:space="preserve">{{#concept:
- [[None]] OR [[Category:Events]]
- |Events or None.
+      <text bytes="196" sha1="p7ibe1qrj7cuq28l0vp0q8g7dnx5n4z" xml:space="preserve">{{#concept:
+ [[Category:Events||Special property values]]
 }}
 
 This concept provides a list of autocomplete values for [[Property:Has parent]] in [[Form:Event]].
 
 [[Category:Autocomplete concepts]]</text>
-      <sha1>p5m7xfjnknn0bqh4ffwo5kb2wzl1k4y</sha1>
+      <sha1>p7ibe1qrj7cuq28l0vp0q8g7dnx5n4z</sha1>
     </revision>
   </page>
   <page>
@@ -12650,25 +12608,25 @@ This concept provides a list of autocomplete values for [[Property:Has parent]] 
     <ns>108</ns>
     <id>280</id>
     <revision>
-      <id>287</id>
-      <timestamp>2024-02-07T15:22:01Z</timestamp>
+      <id>38635</id>
+      <parentid>38634</parentid>
+      <timestamp>2024-11-25T14:11:44Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "{{#concept:  [[Concept:Autocomplete type with personnel]] OR [[Category:Event types]] OR [[Command relationship]]  |Addresses, areas, units, events, or command relationship. }..."</comment>
-      <origin>287</origin>
+      <origin>38635</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="322" sha1="87oqq9kfztv0ihqzkxty23rwhzzic1b" xml:space="preserve">{{#concept:
- [[Concept:Autocomplete type with personnel]] OR [[Category:Event types]] OR [[Command relationship]]
+      <text bytes="313" sha1="l5kk2i4qc6nzkkukw94rkc76xg035bo" xml:space="preserve">{{#concept:
+ [[Category:Address types||Area types||Unit types||Event types]] OR [[Command relationship]]
  |Addresses, areas, units, events, or command relationship.
 }}
 
 This concept provides a list of autocomplete values for [[Property:Is role in]] in [[Form:Role definition]].
 
 [[Category:Autocomplete concepts]]</text>
-      <sha1>87oqq9kfztv0ihqzkxty23rwhzzic1b</sha1>
+      <sha1>l5kk2i4qc6nzkkukw94rkc76xg035bo</sha1>
     </revision>
   </page>
   <page>
