@@ -52,7 +52,7 @@ The data includes data reused from the following sources under the following lic
 
  By The Sword Linked also uses these extensions, which are not bundled with MediaWiki:
 
- - [JulianGregorianDate](https://github.com/bytheswordlinkd/julian-gregorian-date)
+ - [JulianGregorianDate](https://github.com/drgavinr/julian-gregorian-date)
  - [Semantic MediaWiki](https://www.semantic-mediawiki.org/)
  - [Maps](https://maps.extension.wiki/)
  - [PageForms](https://www.mediawiki.org/wiki/Extension:Page_Forms)
