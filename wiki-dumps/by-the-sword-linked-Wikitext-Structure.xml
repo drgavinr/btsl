@@ -2644,19 +2644,18 @@ Latitude comes first, and longitude second, separated by a comma. You can enter 
     <ns>10</ns>
     <id>63</id>
     <revision>
-      <id>38001</id>
-      <parentid>35183</parentid>
-      <timestamp>2024-03-03T16:37:44Z</timestamp>
+      <id>40252</id>
+      <parentid>38001</parentid>
+      <timestamp>2025-02-14T10:45:03Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <comment>default value for Type</comment>
-      <origin>38001</origin>
+      <comment>fixed sort order for subordinate query</comment>
+      <origin>40252</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="9871" sha1="llb2u4nim40ihd2pqoqqv2qlm72lvi9" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="9887" sha1="dze00xlnn7uadiqfq5a3lq0xkdklz6h" xml:space="preserve">&lt;noinclude&gt;
 This is the "Area" template. It is used by [[Form:Area]] and should not be used separately. Edit the page to see the template text.
 &lt;/noinclude&gt;&lt;includeonly&gt;__NOEDITSECTION__[[has description::{{{Description|No description entered.}}}]] ''{{{Disambiguation|&amp;#32;}}}''
 
@@ -2985,7 +2984,7 @@ No rural deans were appointed in the 17th century.
 | ?Has earliest known date=Earliest
 | ?Has latest known date=Latest
 | mainlabel=-
-| sort=Has role
+| sort=Has role,Has subordinate
 | default = No linked subordinates found.
 }} }}}
 
@@ -3016,7 +3015,7 @@ No rural deans were appointed in the 17th century.
 {{#if: {{{Sort by|}}} | {{DEFAULTSORT:{{{Sort by|}}} }} | }}
 [[Category:Areas]]
 &lt;/includeonly&gt;</text>
-      <sha1>llb2u4nim40ihd2pqoqqv2qlm72lvi9</sha1>
+      <sha1>dze00xlnn7uadiqfq5a3lq0xkdklz6h</sha1>
     </revision>
   </page>
   <page>
@@ -5040,18 +5039,18 @@ This page is a [[Property:Is version of|version of]]: {{#arraymap:{{{Parent work
     <ns>106</ns>
     <id>109</id>
     <revision>
-      <id>116</id>
-      <timestamp>2024-02-07T10:01:33Z</timestamp>
+      <id>40090</id>
+      <parentid>116</parentid>
+      <timestamp>2025-01-23T10:54:18Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
       <minor/>
-      <comment>Text replacement - "values from category=Copyright status" to "values from concept=Autocomplete copyright status"</comment>
-      <origin>116</origin>
+      <origin>40090</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2713" sha1="rx2nqqlbqejnu3lvfblua2es79uzp36" xml:space="preserve">&lt;noinclude&gt;
+      <text bytes="2712" sha1="9o52vuzt7j9739m7ufctnv1a16ya324" xml:space="preserve">&lt;noinclude&gt;
 This is the "Article" form.
 To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
@@ -5078,8 +5077,7 @@ Existing pages that use this form are listed in [[:Category:Articles]].
 | {{{field|Title|cols=45|input type=textarea}}}
 |-
 ! Created by: 
-| {{{field|Created by|values from concept=Autocomplete creators
-|list|delimiter=;|size=35|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
+| {{{field|Created by|values from concept=Autocomplete creators|list|delimiter=;|size=35|input type=tokens|placeholder=Start typing for autocomplete suggestions}}}
 |-
 ! In journal or collection: 
 | {{{field|Journal|values from concept=Autocomplete article parents|input type=text with autocomplete}}}
@@ -5159,7 +5157,7 @@ Existing pages that use this form are listed in [[:Category:Articles]].
 
 {{{standard input|save}}} {{{standard input|preview}}} {{{standard input|changes}}} {{{standard input|cancel}}}
 &lt;/includeonly&gt;</text>
-      <sha1>rx2nqqlbqejnu3lvfblua2es79uzp36</sha1>
+      <sha1>9o52vuzt7j9739m7ufctnv1a16ya324</sha1>
     </revision>
   </page>
   <page>
@@ -7668,21 +7666,21 @@ No other information about you will be stored or published except what you choos
     <ns>8</ns>
     <id>133</id>
     <revision>
-      <id>39869</id>
-      <parentid>38987</parentid>
-      <timestamp>2024-12-26T10:46:50Z</timestamp>
+      <id>40257</id>
+      <parentid>40242</parentid>
+      <timestamp>2025-03-10T10:00:10Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Your Archives links fixed</comment>
-      <origin>39869</origin>
+      <comment>updated Github link</comment>
+      <origin>40257</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="320" sha1="ptso9bqkvaexhqvbc58gdwbvphjgwl7" xml:space="preserve">This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.
+      <text bytes="261" sha1="2ox5g06wt81ra2t4akb1tp55e2054bx" xml:space="preserve">This site will be deleted on 31 March 2025. All contents will be archived at [https://github.com/drgavinr/btsl/ Github].
 
-Outgoing links to the British Library, Ordnance Survey, and BCW Regimental wiki are broken because of problems with those sites. See [[Project:Known issues]] for more information.</text>
-      <sha1>ptso9bqkvaexhqvbc58gdwbvphjgwl7</sha1>
+This site uses cookies. You can block them if you never want to log in. See [[Project:Privacy policy|Privacy policy]] for more information.</text>
+      <sha1>2ox5g06wt81ra2t4akb1tp55e2054bx</sha1>
     </revision>
   </page>
   <page>
@@ -7827,25 +7825,23 @@ It looks like query results at [[Special:Ask]] will never be cached by anything.
     <ns>4</ns>
     <id>137</id>
     <revision>
-      <id>39868</id>
-      <parentid>38986</parentid>
-      <timestamp>2024-12-26T10:46:20Z</timestamp>
+      <id>40101</id>
+      <parentid>39868</parentid>
+      <timestamp>2025-01-23T12:03:11Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Your Archives links fixed</comment>
-      <origin>39868</origin>
+      <comment>upgraded Page Forms</comment>
+      <origin>40101</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="7381" sha1="gjgb95ra5zw9dh8zv3sx7cjd5kykbf6" xml:space="preserve">__TOC__
+      <text bytes="7026" sha1="01o0ci6nn1q0sny4467mhmhiokw6ya8" xml:space="preserve">__TOC__
 
 == Outstanding issues ==
 
 These problems have been found during testing and not yet solved:
 
-* November 2024:
-** some autocomplete concepts are not giving forms the full range of expected values, but the results on the concept page are complete. Upgrading PageForms and enabling cache for autocomplete values have not solved the problem. The biggest concepts are broken, but some of the broken concepts have relatively few results and some bigger ones are working.
 * February 2024:
 ** forms can't get autocomplete values from Main namespace because it causes a CPU spike and stops the form from loading. To stop this, 'values from namespace=Main' has been removed from forms, but this limits the autocomplete values available.
 ** some inline query results are sorting in an unexpected order.
@@ -7858,10 +7854,11 @@ These problems have been found during testing and not yet solved:
 *** [[Property:Has URL]] where it links from manuscript or collection pages to the British Library catalogue.
 ** the Ordnance Survey has withdrawn its old linked data service, which has broken [[Property:Has Ordnance Survey ID]]
 * there may be a bug in [[Special:Export]] that truncates the text of some pages. It is not yet known whether this also affects dumpBackup.php which is used to export to Github.
-* leaflet input ignores starting bounds. Needs testing in Page Forms 5.6.3 as may have been fixed.
 
 == Resolved issues ==
 
+* January 2025:
+** upgraded Page Forms extension to 5.9.1. Autocomplete from concepts is now working but very slow.
 * December 2024:
 ** links to Your Archives have been updated to point directly to archived pages at the Government Web Archive because the redirects from old URLs at &lt;nowiki&gt;http://yourarchives.nationalarchives.gov.uk&lt;/nowiki&gt; were broken.
 * February 2024:
@@ -7913,7 +7910,7 @@ These are minor problems that can be worked around, or things that have to be do
 * if Litespeed cache needs to be tried again, the version at Mediawiki extensions website is out of date. Get the latest version from [https://github.com/litespeedtech/lscache_mediawiki/ Github].
 * mod_security doesn't allow inline CSS. To get custom styling, add a class to a div or span tag and define that class in [[Mediawiki:Common.css]].
 * if [[Special:WantedPages]] is out of date but no jobs in queue, use [https://www.mediawiki.org/wiki/Manual:UpdateSpecialPages.php updateSpecialPages.php] maintenance script.</text>
-      <sha1>gjgb95ra5zw9dh8zv3sx7cjd5kykbf6</sha1>
+      <sha1>01o0ci6nn1q0sny4467mhmhiokw6ya8</sha1>
     </revision>
   </page>
   <page>
@@ -9358,17 +9355,18 @@ Only the article ID should be entered in this field. It will be automatically fo
     <ns>4</ns>
     <id>177</id>
     <revision>
-      <id>184</id>
-      <timestamp>2024-01-29T17:00:49Z</timestamp>
+      <id>40250</id>
+      <parentid>40249</parentid>
+      <timestamp>2025-02-07T11:25:30Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <minor/>
-      <origin>184</origin>
+      <comment>/* Manuscripts */</comment>
+      <origin>40250</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="6851" sha1="5vxioix1duy63gzcuqmfceulkhivk13" xml:space="preserve">This page gives an overview of the progress of this project.
+      <text bytes="7483" sha1="9ck90qys8d38yvah0dx2ta7hjnef3gs" xml:space="preserve">This page gives an overview of the progress of this project.
 
 [[:Category:Default form categories]] lists subcategories for each basic entity type and shows the total number of pages of each type.
 
@@ -9382,12 +9380,13 @@ For the current state of the data structures, see:
 * [[Help:Data structures]] for a more detailed look at the properties and how they're used for each type.
 * [[Special:Properties]] for a list of all semantic properties. Each property page gives more details of what it means and how it's used.
 * [[:Category:Type definitions]] for values that can be used for [[Property:Is instance of]]. More need to be added, especially for military units.
-* [[:Category:Property values]] for other property values that are not instances or classes of entities. Many more need to be added, especially military ranks.
+* [[:Category:Role definitions]] for values that can be used for [[Property:Has role]] in subobjects that link agents, events, and organizations.
 
 == Places and administrative areas ==
 
 * [[:Category:Addresses]] lists all settlements, buildings, streets, islands, bridges and land that currently have pages. This is now nearly 19,000 pages.
 * [[:Category:Areas]] lists all administrative areas such as counties.
+** every [[parliamentary constituency]] in England, Wales, and Scotland should have a page. These are instances of more specific subclasses of parliamentary constituency.
 * we have pages for all [[Cathedral]]s in England and Wales.
 * you can drill down from [[Church of England]] to find all provinces, dioceses, archdeaconries and rural deaneries in England and Wales. We only have parishes for London, Westminster and Southwark. There are pages for some but not all peculiar jurisdictions.
 
@@ -9443,19 +9442,23 @@ So far we only have a few example populated places, mostly near battlefields.
 == People and animals ==
 
 * [[:Category:Authors]] includes over 1,700 people who wrote sources relevant to the British Civil Wars but were not alive at the time.
-* [[:Category:Agents]] lists people and animals who were alive during the British Civil Wars. Includes:
-** about 750 regicides and MPs who never had peerages
-** all [[:Category:Saddlers (trading as)|saddlers]] and [[:Category:Harness makers (trading as)|harness makers]] who supplied the [[New Model Army]] in 1645-46
-** a small selection of other people
+* [[:Category:Agents]] lists just over 2,000 people and animals who were alive during the British Civil Wars. Includes:
+** people who held peerages of [[Peerage of England|England]], [[Peerage of Scotland|Scotland]], or [[Peerage of Ireland|Ireland]] between 1637 and 1669.
+** most [[MP]]s in the [[Long Parliament]].
+** probably all [[:Category:Regicides of Charles I|Regicides of Charles I]].
+** many [[:Category:Saddlers (trading as)|saddlers]] and [[:Category:Harness makers (trading as)|harness makers]], including all who supplied the [[New Model Army]] in 1645-46
+** a small selection of other people, particularly authors or subjects of sources, some army officers.
 ** [[Grey horse (George Willingham's)|one horse]].
 
 == Units ==
 
 * [[:Category:Units]] lists all organizations that we class as units. This can include military units, ships, committees, livery companies, households.
 * [[New Model Army#Tactical_subordinates]] lists all original regiments of the New Model Army formed in 1645.
+* [[Eastern Association Army#Subordinates]] includes pages for cavalry regiments and troops that were part of the field army in 1644.
 * Short Parliament:
 ** [[House of Lords, Short Parliament]]
 ** [[House of Commons, Short Parliament]]
+* [[Livery company|Livery companies]] of the City of London.
 
 == Events ==
 
@@ -9468,11 +9471,11 @@ So far we only have a few example populated places, mostly near battlefields.
 
 == Sources ==
 
-* [[:Category:GLAMs]] lists archives and libraries that hold manuscripts or early printed copies. Only three examples for now.
+* [[:Category:GLAMs]] lists archives and libraries that hold manuscripts or early printed copies.
 
 === Manuscripts ===
 
-* [[:Category:Collections]] lists collections within GLAMs. For now these are only manuscript collections but they will later include early printed books.
+* [[:Category:Collections]] lists manuscript collections within GLAMs. Collections of early printed books are outside the scope of this project.
 * [[:Category:Manuscript texts]] lists manuscripts that still exist and whose location and catalogue reference is known.
 * [[:Category:Lost manuscript texts]] lists manuscripts that no longer exist, or whose location is unknown, or that do not have catalogue references.
 
@@ -9495,7 +9498,7 @@ So far we only have a few example populated places, mostly near battlefields.
 === Theses ===
 
 * [[:Category:Theses]] lists unpublished theses and dissertations. We now have more than 600, mostly from EThOS.</text>
-      <sha1>5vxioix1duy63gzcuqmfceulkhivk13</sha1>
+      <sha1>9ck90qys8d38yvah0dx2ta7hjnef3gs</sha1>
     </revision>
   </page>
   <page>
@@ -12722,19 +12725,20 @@ This concept provides a list of autocomplete values for [[Property:Is role in]] 
     <ns>12</ns>
     <id>29181</id>
     <revision>
-      <id>29203</id>
-      <timestamp>2024-02-17T09:37:57Z</timestamp>
+      <id>40256</id>
+      <parentid>29203</parentid>
+      <timestamp>2025-03-09T09:47:38Z</timestamp>
       <contributor>
         <username>Gavin</username>
         <id>1</id>
       </contributor>
-      <comment>Created page with "All data on this site is freely reusable under [[CC-BY-SA]]. You can download data in bulk in various ways described below. Scraping data from HTML pages one page at a time is not recommended because it's inefficient and inconvenient, and may put too much strain on the server.  * [https://github.com/bytheswordlinkd/cc-by-sa-data/tree/main/wiki-dumps Github]: wikitext source code of the entire contents and structure of the wiki as wikitext XML. All individual entities as..."</comment>
-      <origin>29203</origin>
+      <comment>changed Github URL</comment>
+      <origin>40256</origin>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="1939" sha1="nm4i9p3p3ml3a1f8otqxb6yyvmcddaa" xml:space="preserve">All data on this site is freely reusable under [[CC-BY-SA]]. You can download data in bulk in various ways described below. Scraping data from HTML pages one page at a time is not recommended because it's inefficient and inconvenient, and may put too much strain on the server.
+      <text bytes="1903" sha1="4plb5esdckf9hpmde6nm4xsp9681snz" xml:space="preserve">All data on this site is freely reusable under [[CC-BY-SA]]. You can download data in bulk in various ways described below. Scraping data from HTML pages one page at a time is not recommended because it's inefficient and inconvenient, and may put too much strain on the server.
 
-* [https://github.com/bytheswordlinkd/cc-by-sa-data/tree/main/wiki-dumps Github]: wikitext source code of the entire contents and structure of the wiki as wikitext XML. All individual entities as RDF XML. Also gives instructions for setting up Mediawiki to work like By The Sword Linked.
+* [https://github.com/drgavinr/btsl/ Github]: wikitext source code of the entire contents and structure of the wiki as wikitext XML. All individual entities as RDF XML. Also gives instructions for setting up Mediawiki to work like By The Sword Linked.
 * [[Special:Ask]] allows you to write your own semantic queries using the built-in [https://www.semantic-mediawiki.org/wiki/Help:Semantic_search query language]. You don't have to log in to write a query. Up to 2,000 query results can be downloaded as CSV, JSON, RSS or RDF. You can only access values of semantic properties this way. Many pages have standard queries that link to Ask. You can download results of these queries in the same way.
 * [[Special:Export]] allows you to export the wikitext source code of up to 4,999 pages as wikitext XML. You don't have to log in to export pages. Names of pages to be exported need to be entered in the text area. There are several ways to do this:
 ** manually type or paste in the names of any pages you want.
@@ -12743,7 +12747,7 @@ This concept provides a list of autocomplete values for [[Property:Is role in]] 
 * [[Special:ExportRDF]] allows you to export semantic property values as RDF for selected pages. Page names should be entered in the text area in the same way as Special:Export above, except that there's no option to add pages from a category. Recursive export is probably disabled, or will be in future.
 
 [[Category:Help pages]]</text>
-      <sha1>nm4i9p3p3ml3a1f8otqxb6yyvmcddaa</sha1>
+      <sha1>4plb5esdckf9hpmde6nm4xsp9681snz</sha1>
     </revision>
   </page>
   <page>
