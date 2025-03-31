@@ -8,14 +8,18 @@ Data files available are as follows:
 - by-the-sword-linked-RDF-dump.rdf.zip: all semantic properties from individual entities in the wiki exported as OWL DL serialized as RDF/XML. This does not include free text or non-semantic template parameters. Has to be zipped otherwise it's too big to upload to Github.
 - by-the-sword-linked-Wikitext-Structure.xml: the wikitext source code of every page in the following namespaces: Mediawiki, Project, Property, Template, Form, Category, Help. This gives the data structures of the wiki without the content. Exported as [wikitext XML](https://www.mediawiki.org/wiki/Help:Export#Export_format).
 - by-the-sword-linked-Wikitext-Content.xml.zip: the wikitext source code of every page in the following namespaces: Main, Events, Locations. This gives the content which goes with the data structures above. Exported as [wikitext XML](https://www.mediawiki.org/wiki/Help:Export#Export_format). Has to be zipped otherwise it's too big to upload to Github.
+- btsl-logo.svg: the site logo.
 
 For more information about the project and data, see:
 
 - [Introductory blog post](https://bytheswordlinked.hcommons.org/2019/02/26/introduction/) explains the aims and scope of the project.
-- [Help:Create a page](https://www.bytheswordlinked.uk/wiki/Help:Create_a_page) gives an overview of the basic entity types.
-- [Help:Data structures](https://www.bytheswordlinked.uk/wiki/Help:Data_structures) gives more details of the semantic properties and how they are used by each entity type.
-- [Help:Dates](https://www.bytheswordlinked.uk/wiki/Help:Dates) explains how the project handles the difference between the Julian and Gregorian calendars.
-- [Project:Progress](https://www.bytheswordlinked.uk/wiki/Project:Progress) gives an overview of what is and isn't included in the data.
+
+These wiki pages give further information. They can no longer be viewed on the web, but they are included in the archived content:
+
+- **Help:Create** a page gives an overview of the basic entity types.
+- **Help:Data structures** gives more details of the semantic properties and how they are used by each entity type.
+- **Help:Dates** explains how the project handles the difference between the Julian and Gregorian calendars.
+- **Project:Progress** gives an overview of what is and isn't included in the data.
 
 ## Copyright acknowledgements
 
