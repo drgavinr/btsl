@@ -1,5 +1,16 @@
 # wiki-dumps
-This folder provides dumps of the entire [By The Sword Linked](https://www.bytheswordlinked.uk/) wiki.
+
+Dumps of the entire [By The Sword Linked](https://www.bytheswordlinked.uk/) wiki.
+
+## Contents
+
+- [Data](#data)
+- [Copyright acknowledgements](#copyright-acknowledgements)
+- [Mediawiki configuration](#mediawiki-configuration)
+    - [Mediawiki extensions](#mediawiki-extensions)
+    - [Custom namespaces](#custom-namespaces)
+    - [Interwiki links](#interwiki-links)
+    - [Other local settings](#other-local-settings)
 
 ## Data
 
