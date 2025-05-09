@@ -2,6 +2,22 @@
 
 This directory provides a zip file containing Python scripts and example data files that can be used to generate batches of wiki pages to import into Mediawiki. The scripts were developed for By The Sword Linked but can be adapted for other wikis.
 
+- [Directory structure](#directory-structure)
+- [Configuration](#configuration)
+- [Creating delimited text files](#creating-delimited-text-files)
+  - [Delimited text for entity pages](#delimited-text-for-entity-pages)
+    - [Manually creating delimited text for entity pages](#manually-creating-delimited-text-for-entity-pages)
+    - [Free text for entity pages](#free-text-for-entity-pages)
+  - [Delimited text for redirects](#delimited-text-for-redirects)
+- [Generating wikitext XML](#generating-wikitext-xml)
+  - [Generating XML for entity pages](#generating-xml-for-entity-pages)
+  - [Generating XML for redirects](#generating-xml-for-redirects)
+  - [Splitting and merging XML](#splitting-and-merging-xml)
+- [Importing XML to wiki](#importing-xml-to-wiki)
+- [Exporting wiki contents](#exporting-wiki-contents)
+  - [Exporting wikitext XML](#exporting-wikitext-xml)
+  - [Exporting RDF](#exporting-rdf)
+
 ## Directory structure
 
 - **imports/**
