@@ -10,6 +10,7 @@ Dumps of the entire [By The Sword Linked](https://www.bytheswordlinked.uk/) wiki
     - [Mediawiki extensions](#mediawiki-extensions)
     - [Custom namespaces](#custom-namespaces)
     - [Interwiki links](#interwiki-links)
+    - [External links](#external-links)
     - [Other local settings](#other-local-settings)
 
 ## Data
