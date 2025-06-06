@@ -92,6 +92,10 @@ Prefix: marinelives
 
 URL: `http://www.marinelives.org/wiki/$1`
 
+### External links
+
+At the time when the final export was made, links to the BCW Project Regimental Wiki were broken because the site was down. Since then, the site has returned but the URLs are slightly different, and these new URLs are not reflected in the data dump here. These would need to be updated if the data is imported to another wiki. The domain extension `.org` should be changed to `.org.uk`. Apart from this the links to not seem to have changed.
+
  ### Other local settings
 
 For dumps up to and including 13 February 2024, you will need to disable parser strict mode to allow multiple assignments of properties in one semantic tag:
